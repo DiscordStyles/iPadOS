@@ -1,0 +1,45 @@
+#app-mount {
+  .contentRegion-3nDuYy {
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-far);
+    overflow: hidden;
+  }
+  .contentRegionScroller-26nc1e {
+    background: var(--bg-lvl-0);
+    &::-webkit-scrollbar-track {
+      background: var(--bg-lvl-1);
+      border-color: var(--bg-lvl-0);
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--bg-lvl-2);
+      border-color: var(--bg-lvl-0);
+    }
+  }
+  .contentColumn-2hrIYH,
+  .customColumn-Rb6toI {
+    max-width: 990px;
+    padding: 32px;
+  }
+
+  // Form notices
+  .formNotice-2_hHWR {
+    background: var(--bg-lvl-1);
+    border: none;
+  }
+
+  // Group hover thingy
+  .card-FDVird:before {
+    content: none;
+  }
+
+  .title-31JmR4 {
+    color: var(--text-focus);
+  }
+  .h5-18_1nd {
+    color: var(--text-focus);
+    font-weight: bold;
+  }
+  .description-3_Ncsb, .labelDescriptor-1PqHgD {
+    color: var(--text-normal);
+  }
+}

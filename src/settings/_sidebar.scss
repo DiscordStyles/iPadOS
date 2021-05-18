@@ -1,0 +1,236 @@
+@use '../assets';
+
+#app-mount {
+  .sidebarRegion-VFTUkN {
+    margin-right: var(--app-spacing);
+  }
+  .sidebarRegionScroller-3MXcoP {
+    background: var(--bg-lvl-1);
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-far);
+  }
+  .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
+    content: "iPadOS " var(--ipados-version);
+    display: block;
+  }
+
+  .sidebar-CFHs9e {
+    padding: 32px 16px;
+    width: 250px;
+
+    // Icons
+    .item-PXvHYJ {
+      display: flex;
+      align-items: center;
+      &:before {
+        content: "";
+        width: 18px;
+        height: 18px;
+        background: var(--text-normal);
+        display: block;
+        margin-right: var(--spacing);
+        mask-image: url(assets.$icon_cog);
+        mask-size: 18px;
+        mask-position: center;
+        mask-repeat: no-repeat;
+        margin-right: 8px;
+      }
+
+      &:hover {
+        background: var(--bg-lvl-2) !important;
+      }
+      &:active {
+        background: var(--bg-lvl-3) !important;
+      }
+      &.selected-3s45Ha {
+        background: rgb(var(--accent)) !important;
+        color: #fff;
+        &:before {
+          background: #fff;
+        }
+      }
+
+      // User settings
+      &[aria-controls="My-Account-tab"]:before {
+        mask-image: url(assets.$icon_user);
+      }
+      &[aria-controls="Privacy-&-Safety-tab"]:before {
+        mask-image: url(assets.$icon_shield-check);
+      }
+      &[aria-controls="Authorized-Apps-tab"]:before {
+        mask-image: url(assets.$icon_clipboard-check);
+      }
+      &[aria-controls="Connections-tab"]:before {
+        mask-image: url(assets.$icon_link);
+      }
+      &[aria-controls="Discord-Nitro-tab"] {
+        background: transparent !important;
+				color: rgb(var(--discord-blurple));
+				svg {
+					display: none;
+				}
+        &:before {
+          background: currentColor;
+          mask-image: url(assets.$icon_discord);
+        }
+				&:hover {
+					background: var(--bg-lvl-2) !important;
+				}
+        &.selected-3s45Ha {
+          background: rgb(114, 137, 218) !important;
+        }
+      }
+      &[aria-controls="Nitro-Server-Boost-tab"] {
+        color: rgb(var(--discord-nitro)) !important;
+        &:before {
+          background: currentColor;
+          mask-image: url(assets.$icon_nitro-gem);
+        }
+        &.selected-3s45Ha {
+          color: #222 !important;
+          background: rgb(var(--discord-nitro)) !important;
+        }
+      }
+      &[aria-controls="Library-Inventory-tab"]:before {
+        mask-image: url(assets.$icon_gift);
+      }
+      &[aria-controls="Billing-tab"]:before {
+        mask-image: url(assets.$icon_card);
+      }
+      &[aria-controls="Appearance-tab"]:before {
+        mask-image: url(assets.$icon_eye);
+      }
+      &[aria-controls="Accessibility-tab"]:before {
+        mask-image: url(assets.$icon_person-circle);
+      }
+      &[aria-controls="Voice-&-Video-tab"]:before {
+        mask-image: url(assets.$icon_microphone);
+      }
+      &[aria-controls="Text-&-Images-tab"]:before {
+        mask-image: url(assets.$icon_chat);
+      }
+      &[aria-controls="Notifications-tab"]:before {
+        mask-image: url(assets.$icon_bell);
+      }
+      &[aria-controls="Keybinds-tab"]:before {
+        mask-image: url(assets.$icon_keyboard);
+      }
+      &[aria-controls="Language-tab"]:before {
+        mask-image: url(assets.$icon_globe);
+      }
+      // &[aria-controls="Windows-tab"]:before {
+      //   mask-image: url(assets.$icon_windows);
+      // }
+      &[aria-controls="Streamer-Mode-tab"]:before {
+        mask-image: url(assets.$icon_video);
+      }
+      &[aria-controls="Advanced-tab"]:before {
+        mask-image: url(assets.$icon_chip);
+      }
+      &[aria-controls="Game-Activity-tab"]:before {
+        mask-image: url(assets.$icon_rss);
+      }
+      &[aria-controls="Overlay-tab"]:before {
+        mask-image: url(assets.$icon_desktop-computer);
+      }
+      &[aria-controls="changelog-tab"]:before {
+        mask-image: url(assets.$icon_click);
+      }
+      &[aria-controls="Hypesquad-Online-tab"] {
+        color: rgb(var(--discord-yellow));
+        &:before {
+          background: currentColor;
+          mask: url(assets.$icon_hypesquad) center/cover no-repeat;
+        }
+        &.selected-3s45Ha {
+          color: var(--white);
+          background: rgb(var(--discord-yellow));
+        }
+      }
+      &[aria-controls="logout-tab"] {
+        &:before {
+          mask-image: url(assets.$icon_logout);
+          background: rgb(var(--discord-red));
+        }
+        &[style*="background-color: rgba(240, 71, 71, 0.1)"] {
+          background: transparent !important;
+        }
+        &[style*="background-color: rgb(240, 71, 71)"]:before {
+          background: #fff !important;
+        }
+      }
+
+      // BetterDiscord
+      &[aria-controls="Emotes-tab"]:before {
+        mask-image: url(assets.$icon_emoji-happy);
+        mask-size: 14px;
+      }
+      &[aria-controls="plugins-tab"]:before {
+        mask-image: url(assets.$icon_puzzle);
+      }
+      &[aria-controls="themes-tab"]:before {
+        mask-image: url(assets.$icon_color-swatch);
+      }
+      &[aria-controls="customcss-tab"]:before {
+        mask-image: url(assets.$icon_code);
+      }
+
+      // Server settings
+      // &[aria-controls="OVERVIEW-tab"]:before {
+      //   mask-image: url(assets.$icon_eye);
+      // }
+      // &[aria-controls="ROLES-tab"]:before {
+      //   mask-image: url(assets.$icon_unordered-list);
+      // }
+      // &[aria-controls="EMOJI-tab"]:before {
+      //   mask-image: url(assets.$icon_emoji);
+      // }
+      // &[aria-controls="MODERATION-tab"]:before {
+      //   mask-image: url(assets.$icon_tools);
+      // }
+      // &[aria-controls="AUDIT_LOG-tab"]:before {
+      //   mask-image: url(assets.$icon_history);
+      // }
+      // &[aria-controls="INTEGRATIONS-tab"]:before {
+      //   mask-image: url(assets.$icon_link);
+      // }
+      // &[aria-controls="GUILD_TEMPLATES-tab"]:before {
+      //   mask-image: url(assets.$icon_repo-template);
+      // }
+      // &[aria-controls="COMMUNITY-tab"]:before {
+      //   mask-image: url(assets.$icon_share-android);
+      // }
+      // &[aria-controls="GUILD_PREMIUM-tab"] {
+      //   &:before {
+      //     mask-image: url(assets.$icon_zap);
+      //     background: rgb(114, 137, 218);
+      //   }
+      //   &[style*="background-color: rgb(114, 137, 218)"]:before {
+      //     background: #fff;
+      //   }
+      // }
+      // &[aria-controls="MEMBERS-tab"]:before {
+      //   mask-image: url(assets.$icon_people);
+      // }
+      // &[aria-controls="INSTANT_INVITES-tab"]:before {
+      //   mask-image: url(assets.$icon_person-add);
+      // }
+      // &[aria-controls="BANS-tab"]:before {
+      //   mask-image: url(assets.$icon_shield-x);
+      // }
+      // &[aria-controls="DELETE-tab"] {
+      //   &:before {
+      //     mask-image: url(assets.$icon_trashcan);
+      //     mask-size: 12px;
+      //     background: rgb(var(--discord-red));
+      //   }
+      //   &[style*="background-color: rgba(240, 71, 71, 0.1)"] {
+      //     background: transparent !important;
+      //   }
+      //   &[style*="background-color: rgb(240, 71, 71)"]:before {
+      //     background: #fff !important;
+      //   }
+      // }
+    }
+  }
+}

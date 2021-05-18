@@ -1,0 +1,63 @@
+#app-mount {
+  .container-1D34oG {
+    background: transparent;
+    overflow: visible;
+  }
+  .tabBody-3YRQ8W {
+    overflow: visible;
+    &:before {
+      content: none;
+    }
+  }
+
+  .peopleList-3c4jOR {
+    margin-top: var(--app-spacing);
+    padding-bottom: calc(var(--app-spacing) * 3);
+    &:before {
+      content: "";
+      position: sticky;
+      top: 0;
+      display: block;
+      height: 30px;
+      width: calc(100% - 16px);
+      background: linear-gradient(var(--bg-lvl-0), transparent);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    & > div {
+      margin-right: 16px;
+      margin-top: calc(var(--app-spacing) / -1 * 2);
+    }
+  }
+  .peopleListItem-2nzedh {
+    border: none;
+    border-radius: var(--rounded-large);
+    background: var(--bg-lvl-1);
+    margin: 0 0 8px;
+    padding: 0 12px;
+  }
+
+  .nowPlayingColumn-2sl4cE {
+    margin-top: var(--app-spacing);
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-close);
+    margin-left: var(--app-spacing);
+		overflow: hidden;
+  }
+	.container-lRFx4q {
+		background: var(--bg-lvl-1);
+	}
+	.scroller-2ZPeAD {
+		border: none;
+		margin-left: 0;
+	}
+	.wrapper-3D2qGf {
+		border: none;
+		background: var(--bg-lvl-2);
+		border-radius: var(--rounded-small);
+		&:hover {
+			background: var(--bg-lvl-3);
+		}
+	}
+}

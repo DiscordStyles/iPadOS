@@ -1,0 +1,50 @@
+#app-mount {
+  .panels-j1Uci_ {
+    background: transparent;
+  }
+
+  // Connected panel
+  .container-1giJp5 {
+    border: none;
+  }
+
+  // User panel
+  .container-3baos1 {
+    background: var(--bg-lvl-2);
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-close);
+    margin-left: -72px;
+    padding: 16px;
+    height: auto;
+    margin-bottom: 0;
+    .avatarWrapper-2yR4wp {
+      margin-right: 16px;
+    }
+  }
+  .nameTag-3uD-yy {
+    display: flex;
+    align-items: center;
+  }
+  .title-eS5yk3 {
+    font-size: var(--font-size);
+  }
+  .subtext-3CDbHg {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+  }
+
+  // Connected
+  .container-1giJp5 {
+    margin-bottom: var(--app-spacing);
+    background: var(--bg-lvl-1);
+    margin-top: calc(var(--app-spacing) / -1 - 4px);
+    border-bottom-right-radius: var(--rounded-large);
+  }
+  
+  // Live
+  .activityPanel-28dQGo {
+    margin-top: calc(var(--app-spacing) / -1 - 4px);
+    margin-bottom: var(--app-spacing);
+    background: var(--bg-lvl-1);
+  }
+}

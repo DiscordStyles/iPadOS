@@ -1,0 +1,23 @@
+::selection {
+  background: rgba(var(--accent), 1);
+  color: #fff;
+}
+
+#app-mount {
+  font-weight: var(--font-weight-normal);
+
+  .base-3dtUhz {
+    margin: var(--app-spacing) var(--app-spacing) var(--app-spacing) 0;
+    overflow: visible;
+  }
+
+  .bg-h5JY_x {
+    background: var(--bg-lvl-0);
+  }
+
+  // Remove settings overlay transitions
+  .layer-3QrUeG.baseLayer-35bLyl {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }
+}

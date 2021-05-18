@@ -1,0 +1,122 @@
+#app-mount {
+  .form-2fGMdU {
+    margin-top: 0;
+    padding: 0;
+    border-radius: var(--rounded-large);
+    &:before {
+      content: none;
+    }
+  }
+  
+  // Attach button
+  .sansAttachButton-td2irx {
+    padding: 0;
+  }
+  .attachButton-2dnuIu {
+    margin-left: 0;
+    padding: 0 20px 0 21px;
+    height: auto;
+    color: var(--text-muted);
+    transition: color .15s ease;
+    &:hover {
+      color: var(--text-normal);
+    }
+  }
+  .attachButtonInner-PQjIyk {
+    display: flex;
+    height: 64px;
+    &:before {
+      margin: auto;
+      content: "+";
+      color: inherit;
+      display: block;
+      font-weight: bold;
+      font-size: var(--font-size-3xl);
+    }
+    svg {
+      display: none;
+    }
+  }
+  
+  // Textbox
+  .channelTextArea-rNsIhG {
+    margin-bottom: 0;
+    background: transparent;
+  }
+  .scrollableContainer-2NUZem {
+    background: var(--bg-lvl-1);
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-far);
+  }
+  .textArea-12jD-V {
+    background: var(--bg-lvl-2);
+    min-height: 64px;
+  }
+  .placeholder-37qJjk {
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-weight-normal);
+  }
+  .slateTextArea-1Mkdgw {
+    min-height: 64px;
+    font-weight: var(--font-weight-normal);
+    box-sizing: border-box;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  // Right side buttons
+  .buttons-3JBrkn {
+    margin-right: 0;
+    height: unset;
+    padding: 16px 0 0 16px;
+    align-items: flex-start;
+    position: relative;
+  }
+  .button-318s1X {
+    padding: 0 5px;
+    height: 32px;
+  }
+  .emojiButton-3uL3Aw {
+    max-height: 64px;
+    .sprite-2iCowe {
+      filter: grayscale(0) !important;
+    }
+  }
+
+  // Typing, slow mode, jump to present
+  .typing-2GQL18 {
+    top: -42px;
+    height: 34px;
+    pointer-events: none;
+    left: 0;
+    right: 2rem;
+    overflow: visible;
+    .dots-3Bkt3k {
+      display: none;
+    }
+  }
+  .text-1y-e8- {
+    margin-left: 0;
+    font-size: 80%;
+    font-style: italic;
+    &:not(:empty) {
+      background: var(--bg-lvl-2);
+      padding: 5px 15px;
+      border-radius: var(--rounded-large);
+      box-shadow: var(--elevation-close);
+    }
+  }
+  .cooldownWrapper-3joyFc {
+    background: var(--bg-lvl-2);
+    padding: 5px 10px;
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-close)
+  }
+}
+

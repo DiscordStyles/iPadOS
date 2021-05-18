@@ -1,0 +1,16 @@
+#app-mount .members-1998pB {
+  margin-top: var(--app-spacing);
+  margin-left: var(--app-spacing);
+  border-radius: var(--rounded-large);
+  background: var(--bg-lvl-1);
+  width: var(--sidebar-width);
+  box-shadow: var(--elevation-close);
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & > div {
+    background: var(--bg-lvl-1);
+  }
+}

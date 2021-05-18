@@ -1,0 +1,19 @@
+#app-mount {
+  .sidebar-2K8pFh {
+    background: transparent;
+    margin-right: var(--app-spacing);
+    width: var(--sidebar-width);
+    overflow: visible;
+    
+    div[style="height: 84px;"] {
+      display: none;
+    }
+  }
+  .container-3w7J-x {
+    border-radius: 0 var(--rounded-large) var(--rounded-large) 0;
+    background: var(--bg-lvl-1);
+    border-top-right-radius: var(--rounded-large);
+    overflow: hidden;
+    margin-bottom: var(--app-spacing);
+  }
+}

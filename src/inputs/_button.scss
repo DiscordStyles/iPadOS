@@ -1,0 +1,44 @@
+.button-38aScr:not(.lookBlank-3eh9lL) {
+  border-radius: var(--rounded-small);
+  line-height: var(--font-size-lg);
+  font-size: var(--font-size-sm);
+  padding: 6px 12px;
+  height: auto;
+  min-height: auto;
+  transition: box-shadow .15s ease;
+  &.colorBrand-3pXr91 {
+    background: rgb(var(--accent));
+    border: none;
+    color: #fff;
+    &:hover {
+      background: rgb(var(--accent));
+      box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .1);
+    }
+    &:focus {
+      background: rgb(var(--accent));
+      box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .2);
+    }
+  }
+}
+
+.button-1YfofB.buttonColor-7qQbGO {
+  background: var(--bg-lvl-3);
+  border-radius: var(--rounded-large);
+  &:hover {
+    background: var(--bg-lvl-2);
+  }
+
+}
+
+.bd-button {
+  background: rgb(var(--accent));
+  border-radius: var(--rounded-large);
+  &:hover {
+    background: rgb(var(--accent));
+    box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .1);
+  }
+  &:focus {
+    background: rgb(var(--accent));
+    box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .2);
+  }
+}

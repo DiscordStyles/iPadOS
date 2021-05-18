@@ -1,0 +1,41 @@
+#app-mount {
+  .textarea-2r0oV8 {
+    border: none;
+    border-radius: var(--rounded-large);
+    transition: box-shadow .15s ease;
+    &::placeholder {
+      font-weight: inherit;
+      color: var(--text-muted);
+    }
+    &:focus {
+      box-shadow: var(--input-focus);
+      color: var(--text-focus);
+    }
+  }
+  .input-cIJ7To {
+    border: none;
+    border-radius: var(--rounded-large);
+    background: var(--bg-lvl-2);
+    &:focus {
+      box-shadow: var(--input-focus);
+      color: var(--text-focus);
+    }
+  }
+  .multiInput-2AiDV2:focus-within {
+    box-shadow: var(--input-focus);
+    .input-cIJ7To {
+      box-shadow: var(--input-focus);
+      color: var(--text-focus);
+    }
+  }
+
+  // Keybind
+  .container-1nZlH6 {
+    border-color: var(--bg-lvl-1);
+    background: var(--bg-lvl-1);
+    border-radius: var(--rounded-large);
+    &:hover {
+      border-color: rgb(var(--accent));
+    }
+  }
+}

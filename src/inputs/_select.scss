@@ -1,0 +1,49 @@
+#app-mount {
+  .css-gvi9bl-control,
+  .css-17e1tep-control,
+  .css-x3hllb-control,
+  .css-z86t1q-control {
+    background: var(--bg-lvl-1);
+    border: none;
+    border-radius: var(--rounded-large);
+    cursor: pointer;
+  }
+
+  .css-4h5swf-singleValue,
+  .css-1yg49vj-singleValue {
+    line-height: normal;
+  }
+  
+  // Selected
+  .css-6fzn47-control,
+  .css-1ou54ee-control {
+    background: var(--bg-lvl-2);
+    border: none;
+    border-radius: var(--rounded-large);
+    cursor: pointer;
+  }
+
+  // Dropdown
+  .css-3vaxre-menu,
+  .css-1x99fvh-menu {
+    background: var(--bg-lvl-2);
+    border: none;
+    box-shadow: var(--elevation-far);
+    border-radius: var(--rounded-large);
+    margin-top: 8px;
+    overflow: hidden;
+  }
+
+  // Hovered menu item
+  .css-rzbxvl-option,
+  .css-pkcurw-option {
+    background: var(--bg-lvl-3);
+  }
+
+  // Selected menu item
+  .css-1ba14n5-option,
+  .css-1gxgi19-option {
+    background: rgb(var(--accent));
+    color: #fff;
+  }
+}

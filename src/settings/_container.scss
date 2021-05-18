@@ -1,0 +1,59 @@
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
+  background: transparent;
+  top: 0;
+  left: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+  .standardSidebarView-3F1I7i {
+    max-width: 1280px;
+    max-height: 800px;
+    position: unset;
+  }
+  .contentRegion-3nDuYy {
+    flex: 1 1 auto;
+    width: 2000px;
+    position: unset;
+  }
+
+  .toolsContainer-1edPuj {
+    padding-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  .tools-3-3s-N,
+  .container-1sFeqf {
+    width: 100%;
+    height: 100%;
+  }
+  .keybind-KpFkfr {
+    display: none;
+  }
+  .closeButton-1tv5uR {
+    background: rgb(0 0 0 / .7);
+    border: none;
+    border-radius: 0;
+    flex: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .standardSidebarView-3F1I7i {
+    background: transparent;
+    top: 0;
+  }
+}

@@ -1,0 +1,133 @@
+@use '../assets';
+
+#app-mount {
+  // Chat & Pages
+  .container-1r6BKw {
+    max-height: 52px;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-lvl-1);
+    border-radius: var(--rounded-large);
+    padding: 0;
+    height: auto;
+    box-shadow: var(--elevation-close);
+    overflow: hidden;
+
+    .children-19S4PO {
+      padding: 16px;
+      flex: none;
+      background: var(--bg-lvl-1);
+      .iconWrapper-2OrFZ1 {
+        height: 20px;
+        margin-left: 0;
+      }
+      .icon-22AiRD {
+        width: auto;
+        height: 100%;
+      }
+      &:after {
+        content: none;
+      }
+    }
+  }
+  .toolbar-1t6TWx {
+    flex: 1;
+    .iconWrapper-2OrFZ1 {
+      order: 1;
+      margin: 0 16px;
+      & ~ .iconWrapper-2OrFZ1 {
+        margin-left: 0;
+      }
+    }
+    .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
+      display: none;
+    }
+  }
+
+
+  // Search box
+  .search-36MZv- {
+    order: 0;
+    flex: 1;
+    margin: 0;
+  }
+  .searchBar-3dMhjb {
+    width: 100%;
+    height: 52px;
+    background: var(--bg-lvl-2);
+    border-radius: 0;
+    padding: 0;
+    flex-direction: row-reverse;
+    .DraftEditor-root {
+      padding: 0;
+    }
+    .DraftEditor-editorContainer {
+      height: 100%;
+    }
+    .public-DraftEditorPlaceholder-root {
+      margin: 0;
+      padding: 16px 16px 16px 64px;
+      font-size: var(--font-size);
+    }
+    .public-DraftEditor-content {
+      display: flex;
+      align-items: center;
+      padding: 0 16px 0 64px;
+      font-size: var(--font-size);
+    }
+    .icon-38sknP {
+      width: 64px;
+      height: 52px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      .iconContainer-O4O2CN {
+        width: 50%;
+        height: 50%;
+        svg {
+          path {
+            display: none;
+          }
+          &:first-child {
+            mask: url(assets.$icon_search) center/cover no-repeat;
+            background: var(--text-muted);
+          }
+          &:last-child {
+            mask: url(assets.$icon_x) center/cover no-repeat;
+            background: var(--text-focus);
+          }
+        }
+      }
+
+
+      &.clear-1pMieT {
+        z-index: 1;
+      }
+    }
+  }
+
+  // Chat
+  .title-3qD0b- {
+    .divider-3FBTu8 {
+      display: none;
+    }
+    .topic-TCb_qw {
+      font-size: 0;
+      margin: 0;
+      &.expandable-9fI_e3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+    }
+  }
+}
+
+// Windows
+.platform-win #app-mount .container-1r6BKw {
+  width: calc(100% - var(--win-btns-right));
+}

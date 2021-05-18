@@ -1,0 +1,31 @@
+#app-mount {
+  .guilds-1SWlCJ {
+    margin: var(--app-spacing) 0 calc(var(--app-spacing) * 2 + 64px) var(--app-spacing);
+    background: var(--bg-lvl-2);
+    border-radius: var(--rounded-large) 0 0 var(--rounded-large);
+    overflow: visible;
+    .scrollerBase-289Jih {
+      background: transparent;
+      padding-top: 12px;
+      & > .listItem-2P_4kh {
+        margin-bottom: 12px;
+      }
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 372px;
+      height: 100%;
+      background: transparent;
+      box-shadow: var(--elevation-close);
+      border-radius: var(--rounded-large);
+      pointer-events: none;
+      z-index: 1;
+    }
+  }
+  [data-list-id="guildsnav"]:focus {
+    outline: none;
+  }
+}

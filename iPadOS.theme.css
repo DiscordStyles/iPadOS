@@ -1,0 +1,19 @@
+/**
+ * @name iPadOS
+ * @author Gibbu#1211
+ * @authorId 174868361040232448
+ * @version 0.0.1
+ * @invite TeRQEPb
+ * @description Discord redesigned to be simplified. Design by jacktompsett on Behance.
+ * @source https://github.com/DiscordStyles/iPadOS
+ * @website https://github.com/DiscordStyles/iPadOS
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://discordstyles.github.io/iPadOS/iPadOS.css');
+
+:root {
+  --accent: 84, 116, 230;
+  --font: 'Poppins';
+}

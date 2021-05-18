@@ -1,0 +1,41 @@
+#app-mount {
+  // New Messages
+  .newMessagesBar-265mhP {
+    border-radius: var(--rounded-small);
+    left: 64px;
+    right: 32px;
+    top: 0;
+    box-shadow: var(--elevation-close);
+    background: rgb(var(--accent));
+    opacity: 1;
+    &:hover {
+      box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .15), var(--elevation-close);
+    }
+
+    button {
+      height: auto;
+      padding: 6px 16px;
+    }
+  }
+
+  // Reply
+  .container-2fRDfG {
+    margin-bottom: 16px;
+    border-radius: var(--rounded-large);
+    box-shadow: var(--elevation-close);
+    background: var(--bg-lvl-1);
+  }
+
+	// Old messages
+	.jumpToPresentBar-G1R9s6 {
+		background: var(--bg-lvl-3);
+		padding: 0;
+		opacity: 1;
+		border-radius: var(--rounded-small);
+		left: 0;
+		right: 32px;
+		bottom: 16px;
+		box-shadow: var(--elevation-close);
+		min-height: 36px;
+	}
+}
