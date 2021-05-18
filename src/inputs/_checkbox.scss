@@ -1,13 +1,13 @@
 #app-mount {
-  .checkboxWrapper-SkhIWG {
-    .checkbox-1ix_J3 {
-      background: var(--bg-lvl-3);
-      border-color: var(--bg-lvl-3);
-    }
+	.checkboxWrapper-SkhIWG {
+		.checkbox-1ix_J3 {
+			background: var(--bg-lvl-3);
+			border-color: var(--bg-lvl-3);
+		}
 
-    &.checked-3_4uQ9 .checkbox-1ix_J3 {
-      background: rgb(var(--accent)) !important;
-      border-color: rgb(var(--accent)) !important;
-    }
-  }
+		&.checked-3_4uQ9 .checkbox-1ix_J3 {
+			background: rgb(var(--accent)) !important;
+			border-color: rgb(var(--accent)) !important;
+		}
+	}
 }

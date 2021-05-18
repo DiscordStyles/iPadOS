@@ -1,43 +1,43 @@
 .theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng,
 html.theme-dark .force-theme.theme-light {
-  --bg-lvl-0: #141518;
-  --bg-lvl-1: #1f2226;
-  --bg-lvl-2: #2b2e34;
-  --bg-lvl-3: #363b42;
+	--bg-lvl-0: #141518;
+	--bg-lvl-1: #1f2226;
+	--bg-lvl-2: #2b2e34;
+	--bg-lvl-3: #363b42;
 
-  --status-online: #6DD400;
-  --status-idle: #F7B400;
-  --status-dnd: #E02020;
-  --status-offline: #2F3034;
+	--status-online: #6DD400;
+	--status-idle: #F7B400;
+	--status-dnd: #E02020;
+	--status-offline: #2F3034;
 
-  --text-muted: #888;
-  --text-normal: #ddd;
-  --text-focus: #fff;
+	--text-muted: #888;
+	--text-normal: #ddd;
+	--text-focus: #fff;
 
-  // Button colours
-  --button: #2b2d30;
-  --button-hover: #fff;
-  --button-hover-text: #1f2937;
+	// Button colours
+	--button: #2b2d30;
+	--button-hover: #fff;
+	--button-hover-text: #1f2937;
 
-  // Inputs
-  --input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
+	// Inputs
+	--input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
 
-  // Box shadows
-  --elevation-close: 0 2px 5px rgb(0 0 0 / .4);
-  --elevation-far: 0 4px 10px rgb(0 0 0 / .6);
+	// Box shadows
+	--elevation-close: 0 2px 5px rgb(0 0 0 / .4);
+	--elevation-far: 0 4px 10px rgb(0 0 0 / .6);
 
-  // Others
-  --backdrop: rgb(0 0 0 / .6);
+	// Others
+	--backdrop: rgb(0 0 0 / .6);
 
-  // Discord variables
-  --interactive-muted: var(--text-muted);
-  --interactive-normal: var(--text-normal);
-  --interactive-active: #fff;
+	// Discord variables
+	--interactive-muted: var(--text-muted);
+	--interactive-normal: var(--text-normal);
+	--interactive-active: #fff;
 
-  --background-modifier-hover: rgb(255 255 255 / .02);
+	--background-modifier-hover: rgb(255 255 255 / .02);
 
-  --channels-default: var(--text-normal);
+	--channels-default: var(--text-normal);
 }
 
 // 2b2d30

@@ -1,55 +1,55 @@
 #app-mount {
-  .bd-settings-title {
-    margin-bottom: 0;
-  }
-  .bd-addon-controls {
-    position: sticky;
-    top: 0px;
-    background: var(--bg-lvl-0);
-    padding: 16px 0;
-    z-index: 1;
-  }
-  .bd-view-button {
-    border-radius: var(--rounded-small);
-    &:focus {
-      box-shadow: none;
-    }
-    &.selected {
-      background: rgb(var(--accent));
-    }
-  }
+	.bd-settings-title {
+		margin-bottom: 0;
+	}
+	.bd-addon-controls {
+		position: sticky;
+		top: 0px;
+		background: var(--bg-lvl-0);
+		padding: 16px 0;
+		z-index: 1;
+	}
+	.bd-view-button {
+		border-radius: var(--rounded-small);
+		&:focus {
+			box-shadow: none;
+		}
+		&.selected {
+			background: rgb(var(--accent));
+		}
+	}
 
-  .bd-search-wrapper {
-    background: var(--bg-lvl-1);
-    border-radius: var(--rounded-small);
-    position: relative;
-    padding: 0;
-    svg {
-      position: absolute;
-      pointer-events: none;
-      right: 8px;
-      width: 18px !important;
-      height: 18px !important;
-    }
-    &:focus-within {
-      background: var(--bg-lvl-2);
-    }
-  }
-  .bd-search {
-    font-size: 14px;
-    padding: 8px 38px 8px 12px;
-    width: 350px;
-  }
+	.bd-search-wrapper {
+		background: var(--bg-lvl-1);
+		border-radius: var(--rounded-small);
+		position: relative;
+		padding: 0;
+		svg {
+			position: absolute;
+			pointer-events: none;
+			right: 8px;
+			width: 18px !important;
+			height: 18px !important;
+		}
+		&:focus-within {
+			background: var(--bg-lvl-2);
+		}
+	}
+	.bd-search {
+		font-size: 14px;
+		padding: 8px 38px 8px 12px;
+		width: 350px;
+	}
 
-  .bd-addon-list {
-    margin-top: 0;
-  }
-  .bd-addon-card {
-    background: var(--bg-lvl-1);
-  }
-  .bd-addon-header {
-    background: var(--bg-lvl-2);
-  }
+	.bd-addon-list {
+		margin-top: 0;
+	}
+	.bd-addon-card {
+		background: var(--bg-lvl-1);
+	}
+	.bd-addon-header {
+		background: var(--bg-lvl-2);
+	}
 
 	#iPadOS-card .bd-description:after {
 		display: block;

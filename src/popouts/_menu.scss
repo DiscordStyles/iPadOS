@@ -1,35 +1,35 @@
 #app-mount .menu-3sdvDG {
-  background: var(--bg-lvl-3);
-  border-radius: var(--rounded-small);
-  box-shadow: var(--elevation-far);
+	background: var(--bg-lvl-3);
+	border-radius: var(--rounded-small);
+	box-shadow: var(--elevation-far);
 
-  .scroller-3BxosC {
-    padding: 6px;
-  }
+	.scroller-3BxosC {
+		padding: 6px;
+	}
 
 
-  .item-1tOPte {
-    border-radius: var(--rounded-small);
-    &.colorPremium-p4p7qO {
-      color: rgb(var(--discord-nitro));
-    }
-    &.colorBrand-ROmMP1 {
-      color: rgba(var(--accent), 1);
-    }
+	.item-1tOPte {
+		border-radius: var(--rounded-small);
+		&.colorPremium-p4p7qO {
+			color: rgb(var(--discord-nitro));
+		}
+		&.colorBrand-ROmMP1 {
+			color: rgba(var(--accent), 1);
+		}
 
-    &.focused-3afm-j, &:active {
-      background: rgba(var(--accent), 1);
-      color: #fff;
-      &.colorPremium-p4p7qO {
-        background: rgb(var(--discord-nitro));
+		&.focused-3afm-j, &:active {
+			background: rgba(var(--accent), 1);
+			color: #fff;
+			&.colorPremium-p4p7qO {
+				background: rgb(var(--discord-nitro));
 				color: #222;
 				.icon-LYJorE {
 					color: #222;
 				}
-      }
-      &.colorDanger-2qLCe1 {
-        background: rgb(var(--discord-red));
-      }
-    }
-  }
+			}
+			&.colorDanger-2qLCe1 {
+				background: rgb(var(--discord-red));
+			}
+		}
+	}
 }

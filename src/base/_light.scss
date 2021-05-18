@@ -1,32 +1,32 @@
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
-  --bg-lvl-0: #d1d5db;
-  --bg-lvl-1: #e5e7eb;
-  --bg-lvl-2: #f3f4f6;
-  --bg-lvl-3: #ffffff;
+	--bg-lvl-0: #d1d5db;
+	--bg-lvl-1: #e5e7eb;
+	--bg-lvl-2: #f3f4f6;
+	--bg-lvl-3: #ffffff;
 
-  --status-online: #6DD400;
-  --status-idle: #F7B400;
-  --status-dnd: #E02020;
-  --status-offline: #2F3034;
+	--status-online: #6DD400;
+	--status-idle: #F7B400;
+	--status-dnd: #E02020;
+	--status-offline: #2F3034;
 
-  --text-muted: #9ba3af;
-  --text-normal: #374252;
-  --text-focus: #1f2937;
+	--text-muted: #9ba3af;
+	--text-normal: #374252;
+	--text-focus: #1f2937;
 
-  // Button colours
-  --button: var(--bg-lvl-3);
-  --button-hover: #2b2d30;
-  --button-hover-text: #fff;
+	// Button colours
+	--button: var(--bg-lvl-3);
+	--button-hover: #2b2d30;
+	--button-hover-text: #fff;
 
-  // Box shadows
-  --elevation-close: 0 3px 8px rgb(0 0 0 / .2);
-  --elevation-far: 0 7px 15px rgb(0 0 0 / .2), 0 2px 4px rgb(0 0 0 / .05);
+	// Box shadows
+	--elevation-close: 0 3px 8px rgb(0 0 0 / .2);
+	--elevation-far: 0 7px 15px rgb(0 0 0 / .2), 0 2px 4px rgb(0 0 0 / .05);
 
-  // Discord variables
-  --interactive-muted: var(--text-muted);
-  --interactive-active: var(--text-focus);
+	// Discord variables
+	--interactive-muted: var(--text-muted);
+	--interactive-active: var(--text-focus);
 
-  --channels-default: var(--text-normal);
+	--channels-default: var(--text-normal);
 }

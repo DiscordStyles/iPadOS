@@ -1,119 +1,119 @@
 @use '../assets';
 
 #app-mount {
-  .container-1taM1r {
-    min-height: 102px;
-    pointer-events: none;
-    .button-1w5pas {
-      pointer-events: all;
-      mask: url(assets.$icon_cog) center/cover;
-      background: var(--text-focus);
-      width: 24px;
-      height: 24px;
-      top: 5px;
-      margin-left: 8px;
-      transition: transform .2s ease, opacity .2s ease;
-      g {
-        display: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-      &.open-1Te94t {
-        opacity: 1;
-        transform: rotate(-45deg);
-      }
-    }
+	.container-1taM1r {
+		min-height: 102px;
+		pointer-events: none;
+		.button-1w5pas {
+			pointer-events: all;
+			mask: url(assets.$icon_cog) center/cover;
+			background: var(--text-focus);
+			width: 24px;
+			height: 24px;
+			top: 5px;
+			margin-left: 8px;
+			transition: transform .2s ease, opacity .2s ease;
+			g {
+				display: none;
+			}
+			&:hover {
+				opacity: 1;
+			}
+			&.open-1Te94t {
+				opacity: 1;
+				transform: rotate(-45deg);
+			}
+		}
 
-    svg[class*="iconTier"] {
-      color: rgb(var(--discord-nitro));
-    }
+		svg[class*="iconTier"] {
+			color: rgb(var(--discord-nitro));
+		}
 
-    &:not(.hasBanner-2SrLR3):before {
-      content: "";
-      mask: var(--header-background);
-      mask-repeat: var(--header-background-repeat);
-      mask-position: var(--header-background-position);
-      mask-size: var(--header-background-size);
-      background: var(--text-muted);
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
+		&:not(.hasBanner-2SrLR3):before {
+			content: "";
+			mask: var(--header-background);
+			mask-repeat: var(--header-background-repeat);
+			mask-position: var(--header-background-position);
+			mask-size: var(--header-background-size);
+			background: var(--text-muted);
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
 
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      height: 100%;
-      background: linear-gradient(transparent, var(--bg-lvl-1));
-      width: 100%;
-    }
-  }
-
-
-  .selected-31Nl7x .header-2V-4Sw {
-    background: transparent;
-  }
-  .header-2V-4Sw {
-    height: 100%;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 16px;
-    box-shadow: none;
-    filter: none !important;
-    &:hover {
-      background: transparent;
-    }
-  }
-  .guildIconContainer-2FW_iA {
-    background: #fff;
-    height: 32px;
-    width: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--rounded-large);
-    margin-right: 16px;
-    box-shadow: var(--elevation-close);
-  }
-  .guildBadge-3IDi4U {
-    width: 24px !important;
-    height: 24px !important;
-  }
-  .flowerStar-1GeTsn {
-    display: none;
-  }
-  .childContainer-1wxZNh {
-    position: unset;
-  }
-  .premiumGuildIconGem-DAxGL7 {
-    width: 16px;
-    height: 16px;
-  }
-  .icon-1ihkOt {
-    color: rgba(var(--accent), 1);
-    width: 24px !important;
-    height: 24px !important;
-  }
-  .name-1jkAdW {
-    font-size: 18px;
-    line-height: 32px;
-    text-shadow: var(--elevation-close);
-  }
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			height: 100%;
+			background: linear-gradient(transparent, var(--bg-lvl-1));
+			width: 100%;
+		}
+	}
 
 
-  .animatedContainer-1NSq4T {
-    height: 100%;
-    opacity: 1 !important;
-    transform: none !important;
-    box-shadow: none;
-  }
-  .bannerImage-3KhIJ6 {
-    width: 100%;
-    height: 100%;
-    transform: none !important;
-  }
+	.selected-31Nl7x .header-2V-4Sw {
+		background: transparent;
+	}
+	.header-2V-4Sw {
+		height: 100%;
+		align-items: flex-start;
+		justify-content: center;
+		padding: 16px;
+		box-shadow: none;
+		filter: none !important;
+		&:hover {
+			background: transparent;
+		}
+	}
+	.guildIconContainer-2FW_iA {
+		background: #fff;
+		height: 32px;
+		width: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: var(--rounded-large);
+		margin-right: 16px;
+		box-shadow: var(--elevation-close);
+	}
+	.guildBadge-3IDi4U {
+		width: 24px !important;
+		height: 24px !important;
+	}
+	.flowerStar-1GeTsn {
+		display: none;
+	}
+	.childContainer-1wxZNh {
+		position: unset;
+	}
+	.premiumGuildIconGem-DAxGL7 {
+		width: 16px;
+		height: 16px;
+	}
+	.icon-1ihkOt {
+		color: rgba(var(--accent), 1);
+		width: 24px !important;
+		height: 24px !important;
+	}
+	.name-1jkAdW {
+		font-size: 18px;
+		line-height: 32px;
+		text-shadow: var(--elevation-close);
+	}
+
+
+	.animatedContainer-1NSq4T {
+		height: 100%;
+		opacity: 1 !important;
+		transform: none !important;
+		box-shadow: none;
+	}
+	.bannerImage-3KhIJ6 {
+		width: 100%;
+		height: 100%;
+		transform: none !important;
+	}
 }

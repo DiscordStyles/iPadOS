@@ -1,38 +1,38 @@
 #app-mount {
-  .wrapper-25eVIn {
-    border-radius: var(--rounded-large);
-    overflow: hidden;
-    foreignObject {
-      mask: none;
-    }
-  }
-  .childWrapper-anI2G9 {
-    background: var(--bg-lvl-3);
-  }
-  .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-    background: rgba(var(--accent), 1);
-  }
+	.wrapper-25eVIn {
+		border-radius: var(--rounded-large);
+		overflow: hidden;
+		foreignObject {
+			mask: none;
+		}
+	}
+	.childWrapper-anI2G9 {
+		background: var(--bg-lvl-3);
+	}
+	.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+		background: rgba(var(--accent), 1);
+	}
 
-  // Pill
-  .item-2hkk8m {
-    border-radius: 0 2px 2px 0;
-  }
+	// Pill
+	.item-2hkk8m {
+		border-radius: 0 2px 2px 0;
+	}
 
-  // Badges
-  .iconBadge-2NuvG9 {
-    border: 4px solid var(--bg-lvl-2);
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    margin-top: -4px;
-    margin-right: -4px;
-  }
+	// Badges
+	.iconBadge-2NuvG9 {
+		border: 4px solid var(--bg-lvl-2);
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		margin-top: -4px;
+		margin-right: -4px;
+	}
 
-  // Add/Join & Discovery
-  .circleIconButton-1QV--U {
-    background: var(--bg-lvl-3);
-    &.selected-1JjBPm {
-      background: rgb(var(--discord-green));
-    }
-  }
+	// Add/Join & Discovery
+	.circleIconButton-1QV--U {
+		background: var(--bg-lvl-3);
+		&.selected-1JjBPm {
+			background: rgb(var(--discord-green));
+		}
+	}
 }

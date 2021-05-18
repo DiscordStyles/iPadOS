@@ -1,25 +1,25 @@
 #app-mount {
-  .chatContent-a9vAAp {
-    margin-top: var(--app-spacing);
-  }
-  .content-yTz4x3:before {
-    content: none;
-  }
-  .chat-3bRxxu {
-    background: transparent;
-    overflow: visible;
-  }
-  .scrollerSpacer-avRLaA {
-    height: 48px;
-  }
-  .scroller-2LSbBU {
-    &::-webkit-scrollbar-track {
-      background: var(--bg-lvl-1);
-      border-color: var(--bg-lvl-0);
-    }
-    &::-webkit-scrollbar-thumb {
-      background: var(--bg-lvl-2);
-      border-color: var(--bg-lvl-0);
-    }
-  }
+	.chatContent-a9vAAp {
+		margin-top: var(--app-spacing);
+	}
+	.content-yTz4x3:before {
+		content: none;
+	}
+	.chat-3bRxxu {
+		background: transparent;
+		overflow: visible;
+	}
+	.scrollerSpacer-avRLaA {
+		height: 48px;
+	}
+	.scroller-2LSbBU {
+		&::-webkit-scrollbar-track {
+			background: var(--bg-lvl-1);
+			border-color: var(--bg-lvl-0);
+		}
+		&::-webkit-scrollbar-thumb {
+			background: var(--bg-lvl-2);
+			border-color: var(--bg-lvl-0);
+		}
+	}
 }

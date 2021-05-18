@@ -1,41 +1,41 @@
 #app-mount {
-  .typeWindows-1za-n7 {
-    position: unset;
-    position: absolute;
-    width: 100vw;
-    &:after {
-      content: "";
-      position: absolute;
-      top: calc(var(--win-btns-top) - 4px);
-      right: var(--app-spacing);
-      width: 156px;
-      height: 52px;
-      border-radius: var(--rounded-large);
-      z-index: 0;
-      box-shadow: var(--elevation-close);
-    }
-  }
-  .wordmarkWindows-1v0lYD {
-    display: none;
-  }
-  .winButton-iRh8-Z {
-    top: calc(var(--win-btns-top) - 4px);
-    right: var(--app-spacing);
-    background: var(--bg-lvl-1);
-    height: 52px;
-    width: 52px;
-    z-index: 1;
-    &:hover {
-      background: var(--bg-lvl-2)
-    }
-  }
-  .winButtonMinMax-PBQ2gm:nth-child(4) {
-    border-radius: var(--rounded-large) 0 0 var(--rounded-large);
-  }
-  .winButtonClose-1HsbF- {
-    border-radius: 0 var(--rounded-large) var(--rounded-large) 0;
-    &:hover {
-      background: rgb(var(--discord-red));
-    }
-  }
+	.typeWindows-1za-n7 {
+		position: unset;
+		position: absolute;
+		width: 100vw;
+		&:after {
+			content: "";
+			position: absolute;
+			top: calc(var(--win-btns-top) - 4px);
+			right: var(--app-spacing);
+			width: 156px;
+			height: 52px;
+			border-radius: var(--rounded-large);
+			z-index: 0;
+			box-shadow: var(--elevation-close);
+		}
+	}
+	.wordmarkWindows-1v0lYD {
+		display: none;
+	}
+	.winButton-iRh8-Z {
+		top: calc(var(--win-btns-top) - 4px);
+		right: var(--app-spacing);
+		background: var(--bg-lvl-1);
+		height: 52px;
+		width: 52px;
+		z-index: 1;
+		&:hover {
+			background: var(--bg-lvl-2)
+		}
+	}
+	.winButtonMinMax-PBQ2gm:nth-child(4) {
+		border-radius: var(--rounded-large) 0 0 var(--rounded-large);
+	}
+	.winButtonClose-1HsbF- {
+		border-radius: 0 var(--rounded-large) var(--rounded-large) 0;
+		&:hover {
+			background: rgb(var(--discord-red));
+		}
+	}
 }

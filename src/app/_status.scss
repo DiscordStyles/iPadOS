@@ -1,96 +1,96 @@
 #app-mount .wrapper-3t9DeA {
-  .mask-1l8v16, svg:not(:root) {
-    overflow: visible;
-    mask: none;
-  }
-  foreignObject{
-    mask: none;
-  }
-  rect {
-    mask: none;
-    ry: var(--rounded-small);
-    rx: var(--rounded-small);
-    &[fill="#43b581"],
-    &[fill="rgba(67, 181, 129, 1)"],
-    &[fill="#ffffff"],
-    &[mask*="online"] {
-      fill: rgb(var(--discord-green));
-    }
-    &[fill="#faa61a"],
-    &[fill="rgba(250, 166, 26, 1)"],
-    &[mask*="idle"] {
-      fill: rgb(var(--discord-yellow));
-    }
-    &[fill="#f04747"],
-    &[fill="rgba(240, 71, 71, 1)"],
-    &[mask*="dnd"] {
-      fill: rgb(var(--discord-red));
-    }
-    &[fill="#593695"],
-    &[mask*="streaming"] {
-      fill: rgb(var(--discord-purple));
-    }
-    &[fill="#747f8d"],
-    &[mask*="offline"],
-    &[fill="NaN"],
-    &[mask*="invisible"],
-    &[fill="rgba(116, 127, 141, 1)"] {
-      fill: rgb(var(--discord-grey));
-    }
-  }
-  img {
-    border-radius: var(--rounded-large);
-  }
+	.mask-1l8v16, svg:not(:root) {
+		overflow: visible;
+		mask: none;
+	}
+	foreignObject{
+		mask: none;
+	}
+	rect {
+		mask: none;
+		ry: var(--rounded-small);
+		rx: var(--rounded-small);
+		&[fill="#43b581"],
+		&[fill="rgba(67, 181, 129, 1)"],
+		&[fill="#ffffff"],
+		&[mask*="online"] {
+			fill: rgb(var(--discord-green));
+		}
+		&[fill="#faa61a"],
+		&[fill="rgba(250, 166, 26, 1)"],
+		&[mask*="idle"] {
+			fill: rgb(var(--discord-yellow));
+		}
+		&[fill="#f04747"],
+		&[fill="rgba(240, 71, 71, 1)"],
+		&[mask*="dnd"] {
+			fill: rgb(var(--discord-red));
+		}
+		&[fill="#593695"],
+		&[mask*="streaming"] {
+			fill: rgb(var(--discord-purple));
+		}
+		&[fill="#747f8d"],
+		&[mask*="offline"],
+		&[fill="NaN"],
+		&[mask*="invisible"],
+		&[fill="rgba(116, 127, 141, 1)"] {
+			fill: rgb(var(--discord-grey));
+		}
+	}
+	img {
+		border-radius: var(--rounded-large);
+	}
 
-  // Small avatars (members, dms)
-  &[style*="32"] rect {
-    stroke: var(--bg-lvl-1);
-    stroke-width: 2px;
-    width: 12px;
-    height: 12px;
-    x: 21px;
-    y: 21px;
-    // Normal status
-    &[width="25"][height="15"] {
-      x: 6.5px;
-      y: 4px;
-    }
-    &[x="22"][y="22"][fill="transparent"] {
-      display: none;
-    }
-  }
+	// Small avatars (members, dms)
+	&[style*="32"] rect {
+		stroke: var(--bg-lvl-1);
+		stroke-width: 2px;
+		width: 12px;
+		height: 12px;
+		x: 21px;
+		y: 21px;
+		// Normal status
+		&[width="25"][height="15"] {
+			x: 6.5px;
+			y: 4px;
+		}
+		&[x="22"][y="22"][fill="transparent"] {
+			display: none;
+		}
+	}
 
-  // StatusEverywhere
-  &[style*="40"] {
-    width: var(--chat-avatar-size) !important;
-    height: var(--chat-avatar-size) !important;
-    .svg-2V3M55 rect {
-      stroke: var(--bg-lvl-0);
-      stroke-width: 2px;
-      width: 12px;
-      height: 12px;
-      stroke-width: 2px;
-      y: 29px;
-      x: 29px;
-    }
-  }
+	// StatusEverywhere
+	&[style*="40"] {
+		width: var(--chat-avatar-size) !important;
+		height: var(--chat-avatar-size) !important;
+		.svg-2V3M55 rect {
+			stroke: var(--bg-lvl-0);
+			stroke-width: 2px;
+			width: 12px;
+			height: 12px;
+			stroke-width: 2px;
+			y: 29px;
+			x: 29px;
+		}
+	}
 
-  // Larger avatars (user popout/profile)
-  &[style*="80"] .svg-2V3M55 {
-    rect {
-      stroke: var(--bg-lvl-2);
-      stroke-width: 2px;
-      width: 18px;
-      height: 18px;
-      stroke-width: 4px;
-    }
-    & > svg > rect {
-      x: 14px;
-      y: 10px;
-    }
-    & > rect {
-      x: 63px;
-      y: 63px;
-    }
-  }
+	// Larger avatars (user popout/profile)
+	&[style*="80"] .svg-2V3M55 {
+		rect {
+			stroke: var(--bg-lvl-2);
+			stroke-width: 2px;
+			width: 18px;
+			height: 18px;
+			stroke-width: 4px;
+		}
+		& > svg > rect {
+			x: 14px;
+			y: 10px;
+		}
+		& > rect {
+			x: 63px;
+			y: 63px;
+		}
+	}
 }

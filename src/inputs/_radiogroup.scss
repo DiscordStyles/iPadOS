@@ -1,25 +1,25 @@
 #app-mount [role="radiogroup"] {
-  .item-26Dhrx {
-    background: var(--bg-lvl-1);
+	.item-26Dhrx {
+		background: var(--bg-lvl-1);
 
-    .radioBar-bMNUI- {
-      padding: 10px 16px !important;
-      grid-gap: 16px;
-    }
+		.radioBar-bMNUI- {
+			padding: 10px 16px !important;
+			grid-gap: 16px;
+		}
 
-    &:hover {
-      background: var(--bg-lvl-2);
-    }
+		&:hover {
+			background: var(--bg-lvl-2);
+		}
 
-    &[aria-checked="true"] {
-      color: #fff;
-      .radioBar-bMNUI- {
-        background: var(--radio-bar-accent-color, rgb(var(--accent)));
-        circle,
-        path {
-          color: #fff;
-        }
-      }
-    }
-  }
+		&[aria-checked="true"] {
+			color: #fff;
+			.radioBar-bMNUI- {
+				background: var(--radio-bar-accent-color, rgb(var(--accent)));
+				circle,
+				path {
+					color: #fff;
+				}
+			}
+		}
+	}
 }

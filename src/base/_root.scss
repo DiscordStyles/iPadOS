@@ -1,68 +1,68 @@
 @use '../assets';
 
 :root {
-  // Roundness
-  --rounded-small: 4px;
-  --rounded-large: 8px;
-  --button-radius: 12px;
+	// Roundness
+	--rounded-small: 4px;
+	--rounded-large: 8px;
+	--button-radius: 12px;
 
-  --app-spacing: 16px;
+	--app-spacing: 16px;
 
-  --win-btns-top: var(--app-spacing);
-  --win-btns-right: 174px;
+	--win-btns-top: var(--app-spacing);
+	--win-btns-right: 174px;
 
-  // BD Stuff
+	// BD Stuff
 
-  // Header background
-  --header-background: url("#{assets.$pattern_1}");
-  --header-background-repeat: repeat;
-  --header-background-position: initial;
-  --header-background-size: auto;
+	// Header background
+	--header-background: url("#{assets.$pattern_1}");
+	--header-background-repeat: repeat;
+	--header-background-position: initial;
+	--header-background-size: auto;
 
-  // Font sizes
-  --font-size-xsm: 11px;
-  --font-size-sm: 14px;
-  --font-size: 16px;
-  --font-size-lg: 20px;
-  --font-size-xl: 24px;
-  --font-size-2xl: 30px;
-  --font-size-3xl: 36px;
+	// Font sizes
+	--font-size-xsm: 11px;
+	--font-size-sm: 14px;
+	--font-size: 16px;
+	--font-size-lg: 20px;
+	--font-size-xl: 24px;
+	--font-size-2xl: 30px;
+	--font-size-3xl: 36px;
 
-  // Sizebar
-  --sidebar-width: 300px;
+	// Sizebar
+	--sidebar-width: 300px;
 
-  // Chat
-  --message-padding: 1rem;
-  --chat-avatar-size: var(--avatar-size-md);
+	// Chat
+	--message-padding: 1rem;
+	--chat-avatar-size: var(--avatar-size-md);
 
-  // Avatars
-  --avatar-size-sm: 24px;
-  --avatar-size: 32px;
-  --avatar-size-md: 48px;
-  --avatar-size-lg: 64px;
-  --avatar-size-xlg: 84px;
+	// Avatars
+	--avatar-size-sm: 24px;
+	--avatar-size: 32px;
+	--avatar-size-md: 48px;
+	--avatar-size-lg: 64px;
+	--avatar-size-xlg: 84px;
 
-  // Font weights
-  --font-weight-normal: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
+	// Font weights
+	--font-weight-normal: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
 
-  // Discord colours
-  --text-link: rgba(var(--accent), 1);
-  --discord-green: 59 165 92;
-  --discord-yellow: 219 171 9;
-  --discord-red: 215 58 73;
-  --discord-purple: 89 54 149;
-  --discord-grey: 117 128 142;
-  --discord-invisible: 117 128 142;
-  --discord-nitro: 255 115 250;
-  --discord-blurple: 114 137 218;
-  --discord-spotify: 29 185 84;
-  --discord-twitch: 89 54 149;
-  --discord-xbox: 16 124 16;
+	// Discord colours
+	--text-link: rgba(var(--accent), 1);
+	--discord-green: 59 165 92;
+	--discord-yellow: 219 171 9;
+	--discord-red: 215 58 73;
+	--discord-purple: 89 54 149;
+	--discord-grey: 117 128 142;
+	--discord-invisible: 117 128 142;
+	--discord-nitro: 255 115 250;
+	--discord-blurple: 114 137 218;
+	--discord-spotify: 29 185 84;
+	--discord-twitch: 89 54 149;
+	--discord-xbox: 16 124 16;
 
 	// Discord variables
 	--font-display: var(--font);
 
-  --ipados-version: '0.0.1';
+	--ipados-version: '0.0.1';
 }
