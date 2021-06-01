@@ -1,10 +1,10 @@
 #app-mount .member-3-YXUe {
 	max-width: unset;
-	margin: 0 16px 3px 16px;
+	margin: 0 var(--spacing-xl) var(--spacing-xs) var(--spacing-xl);
 
 	.layout-2DM8Md {
 		height: auto;
-		padding: 8px 10px;
+		padding: var(--spacing) var(--spacing-md);
 		border-radius: var(--rounded-large);
 	}
 	.name-uJV0GL {
@@ -19,7 +19,7 @@
 	}
 
 	& + .membersGroup-v9BXpm {
-		margin-top: 16px;
+		margin-top: var(--spacing-xl);
 	}
 
 	&:hover {

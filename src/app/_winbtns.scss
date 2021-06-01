@@ -1,8 +1,8 @@
 #app-mount {
 	.typeWindows-1za-n7 {
-		position: unset;
 		position: absolute;
 		width: 100vw;
+		z-index: 1;
 		&:after {
 			content: "";
 			position: absolute;

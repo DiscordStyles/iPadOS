@@ -14,7 +14,7 @@
 		overflow: hidden;
 
 		.children-19S4PO {
-			padding: 16px;
+			padding: var(--spacing-xl);
 			flex: none;
 			background: var(--bg-lvl-1);
 			.iconWrapper-2OrFZ1 {
@@ -32,9 +32,10 @@
 	}
 	.toolbar-1t6TWx {
 		flex: 1;
+		justify-content: flex-end;
 		.iconWrapper-2OrFZ1 {
 			order: 1;
-			margin: 0 16px;
+			margin: 0 var(--spacing-xl);
 			& ~ .iconWrapper-2OrFZ1 {
 				margin-left: 0;
 			}
@@ -48,63 +49,7 @@
 	// Search box
 	.search-36MZv- {
 		order: 0;
-		flex: 1;
 		margin: 0;
-	}
-	.searchBar-3dMhjb {
-		width: 100%;
-		height: 52px;
-		background: var(--bg-lvl-2);
-		border-radius: 0;
-		padding: 0;
-		flex-direction: row-reverse;
-		.DraftEditor-root {
-			padding: 0;
-		}
-		.DraftEditor-editorContainer {
-			height: 100%;
-		}
-		.public-DraftEditorPlaceholder-root {
-			margin: 0;
-			padding: 16px 16px 16px 64px;
-			font-size: var(--font-size);
-		}
-		.public-DraftEditor-content {
-			display: flex;
-			align-items: center;
-			padding: 0 16px 0 64px;
-			font-size: var(--font-size);
-		}
-		.icon-38sknP {
-			width: 64px;
-			height: 52px;
-			position: absolute;
-			left: 0;
-			top: 50%;
-			transform: translateY(-50%);
-			.iconContainer-O4O2CN {
-				width: 50%;
-				height: 50%;
-				svg {
-					path {
-						display: none;
-					}
-					&:first-child {
-						mask: url(assets.$icon_search) center/cover no-repeat;
-						background: var(--text-muted);
-					}
-					&:last-child {
-						mask: url(assets.$icon_x) center/cover no-repeat;
-						background: var(--text-focus);
-					}
-				}
-			}
-
-
-			&.clear-1pMieT {
-				z-index: 1;
-			}
-		}
 	}
 
 	// Chat

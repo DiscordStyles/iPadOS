@@ -107,14 +107,14 @@
 		font-style: italic;
 		&:not(:empty) {
 			background: var(--bg-lvl-2);
-			padding: 5px 15px;
+			padding: var(--spacing-sm) var(--spacing-xl);
 			border-radius: var(--rounded-large);
 			box-shadow: var(--elevation-close);
 		}
 	}
 	.cooldownWrapper-3joyFc {
 		background: var(--bg-lvl-2);
-		padding: 5px 10px;
+		padding: var(--spacing-sm) var(--spacing-md);
 		border-radius: var(--rounded-large);
 		box-shadow: var(--elevation-close)
 	}

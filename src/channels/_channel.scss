@@ -1,9 +1,13 @@
 #app-mount {
 	.containerDefault--pIXnN {
-		margin-bottom: 4px;
+		margin-bottom: var(--spacing-xs);
 	}
 	.wrapper-2jXpOf {
 		padding: 0;
+
+		&:hover .content-1x5b-n {
+			background: var(--bg-lvl-2);
+		}
 
 		&.modeUnread-1qO3K1 .content-1x5b-n {
 			.icon-1DeIlz {
@@ -21,8 +25,8 @@
 	}
 	.content-1x5b-n {
 		border-radius: var(--rounded-small);
-		padding: 5px 10px;
-		margin: 0 8px;
+		padding: var(--spacing-sm) var(--spacing-md);
+		margin: 0 0 0 var(--spacing);
 		.icon-1DeIlz {
 			width: var(--font-size-sm);
 			height: var(--font-size-sm);
@@ -30,12 +34,22 @@
 	}
 	.mainContent-u_9PKf {
 		padding: 0;
-		&:before {
-			left: -16px;
-		}
 	}
 	.name-23GUGE {
 		font-size: var(--font-size-sm);
 		font-weight: var(--font-weight-normal);
 	}
+
+	.voiceUser-1K6Xox {
+		&:hover .content-1Wq3SX {
+			background: var(--bg-lvl-2);
+		}
+		&.selected-3t3Csj .content-1Wq3SX {
+			background: rgb(var(--accent));
+			.username-3KYl0N {
+				color: #fff !important;
+			}
+		}
+	}
+	
 }

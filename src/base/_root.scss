@@ -6,18 +6,29 @@
 	--rounded-large: 8px;
 	--button-radius: 12px;
 
+	// Spacing
+	--spacing-xs: 4px;
+	--spacing-sm: 6px;
+	--spacing: 8px;
+	--spacing-md: 10px;
+	--spacing-lg: 14px;
+	--spacing-xl: 16px;
+	--spacing-2xl: 18px;
 	--app-spacing: 16px;
 
+	// Windows buttons
 	--win-btns-top: var(--app-spacing);
-	--win-btns-right: 174px;
-
-	// BD Stuff
+	--win-btns-right: calc(156px + var(--app-spacing));
 
 	// Header background
 	--header-background: url("#{assets.$pattern_1}");
 	--header-background-repeat: repeat;
 	--header-background-position: initial;
 	--header-background-size: auto;
+
+	// Box shadows
+	--elevation-close: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	--elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
 
 	// Font sizes
 	--font-size-xsm: 11px;
@@ -47,6 +58,10 @@
 	--font-weight-semibold: 600;
 	--font-weight-bold: 700;
 
+	// Settings
+	--settings-height: 800px;
+	--settings-width: 1280px;
+
 	// Discord colours
 	--text-link: rgba(var(--accent), 1);
 	--discord-green: 59 165 92;
@@ -64,5 +79,5 @@
 	// Discord variables
 	--font-display: var(--font);
 
-	--ipados-version: '0.0.1';
+	--ipados-version: '0.1.0 [BETA]';
 }

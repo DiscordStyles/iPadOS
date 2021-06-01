@@ -1,28 +1,26 @@
 @use '../assets';
 
-#app-mount {
-	.root-SR8cQa {
-		background: transparent;
-		width: 800px;
-		border-radius: 0;
-	}
+#app-mount .root-SR8cQa {
+	background: transparent;
+	width: 800px;
+	border-radius: 0;
 	.header-QKLPzZ {
 		background: var(--bg-lvl-0);
 		border-radius: var(--rounded-large);
-		margin-bottom: 16px;
-		padding: 0 16px;
+		margin-bottom: var(--spacing-xl);
+		padding: 0 var(--spacing-xl);
 		.wrapper-3t9DeA {
-			margin: 16px 0;
+			margin: var(--spacing-xl) 0;
 			.svg-2V3M55 rect {
 				stroke: var(--bg-lvl-0);
 			}
 		}
 	}
 	.headerInfo-30uryT {
-		padding: 16px;
+		padding: var(--spacing-xl);
 	}
 	.nameTag-2IFDfL {
-		margin-right: 16px;
+		margin-right: var(--spacing-xl);
 		flex-direction: column;
 		align-items: flex-start;
 	}
@@ -40,7 +38,7 @@
 		font-size: var(--font-size);
 		opacity: 1;
 		color: var(--text-muted);
-		margin-top: 8px;
+		margin-top: var(--spacing);
 	}
 	.profileBadges-2vWUYb > div {
 		margin-bottom: 0;
@@ -59,9 +57,9 @@
 	}
 	.tabBarContainer-1s1u-z {
 		border: none;
-		padding: 8px 16px 16px;
-		margin-bottom: 16px;
-		margin-top: -22px;
+		padding: var(--spacing) var(--spacing-xl) var(--spacing-xl);
+		margin-bottom: var(--spacing-xl);
+		margin-top: calc(var(--spacing-2xl) / -1 - 4px);
 		border-radius: 0 0 var(--rounded-large) var(--rounded-large);
 		order: 1;
 		background: var(--bg-lvl-0);
@@ -71,8 +69,8 @@
 		font-weight: var(--font-weight-semibold);
 		flex: 1;
 		justify-content: center;
-		margin-right: 16px;
-		padding: 10px 0;
+		margin-right: var(--spacing-xl);
+		padding: var(--spacing-md) 0;
 		border: none !important;
 		border-radius: var(--rounded-large);
 		background: var(--bg-lvl-1);
@@ -86,7 +84,7 @@
 			mask-size: 18px;
 			mask-position: center;
 			mask-repeat: no-repeat;
-			margin-right: 8px;
+			margin-right: var(--spacing);
 		}
 		&:nth-child(1):before {
 			mask-image: url(assets.$icon_user);
@@ -118,14 +116,14 @@
 		order: 2;
 		background: var(--bg-lvl-0);
 		border-radius: var(--rounded-large) var(--rounded-large) 0 0;
-		padding: 16px;
+		padding: var(--spacing-xl);
 		& + .activity-1ythUs {
-			padding: 22px 16px 16px;
-			margin-bottom: -8px;
+			padding: 22px var(--spacing-xl) var(--spacing-xl);
+			margin-bottom: calc(var(--spacing) / -1);
 		}
 
 		&:first-child {
-			margin-bottom: -16px;
+			margin-bottom: calc(var(--spacing-xl) / -1);
 		}
 	}
 	.headerText-1HLrL7,
@@ -157,7 +155,7 @@
 	}
 	.listRow-hutiT_ {
 		margin: 0;
-		padding: 8px;
+		padding: var(--spacing);
 	}
 	.userInfoSection-2acyCx {
 		border: none;
@@ -167,7 +165,7 @@
 		}
 	}
 	.userInfoSectionHeader-CBvMDh {
-		margin-bottom: 8px;
+		margin-bottom: var(--spacing);
 	}
 	.note-QfFU8y {
 		margin: 0;
@@ -175,13 +173,13 @@
 	.textarea-2r0oV8 {
 		background: var(--bg-lvl-1);
 		font-weight: var(--font-weight-normal);
-		padding: 16px;
+		padding: var(--spacing-xl);
 		height: auto !important;
 	}
 	.connectedAccounts-repVzS {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 16px;
+		grid-gap: var(--spacing-xl);
 		margin: 0;
 	}
 	.connectedAccount-36nQx7 {
@@ -191,7 +189,7 @@
 		background: var(--bg-lvl-1);
 		border-radius: var(--rounded-large);
 		margin: 0;
-		padding: 8px 12px 8px 8px;
+		padding: var(--spacing) var(--spacing-lg) var(--spacing) var(--spacing);
 	}
 	.connectedAccountName-f8AEe2 {
 		line-height: normal;

@@ -12,13 +12,13 @@
 	z-index: 1;
 
 	.standardSidebarView-3F1I7i {
-		max-width: 1280px;
-		max-height: 800px;
+		max-width: var(--settings-width);
+		max-height: var(--settings-height);
 		position: unset;
 	}
 	.contentRegion-3nDuYy {
 		flex: 1 1 auto;
-		width: 2000px;
+		width: var(--settings-width);
 		position: unset;
 	}
 
@@ -55,5 +55,13 @@
 	.standardSidebarView-3F1I7i {
 		background: transparent;
 		top: 0;
+	}
+
+	// Custom scroller bullshit thing
+	.customContainer-1RHXqt {
+		position: relative;
+		&::-webkit-scrollbar {
+			display: none;
+		}
 	}
 }

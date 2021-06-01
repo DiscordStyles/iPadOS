@@ -15,7 +15,7 @@
 	}
 
 	.sidebar-CFHs9e {
-		padding: 32px 16px;
+		padding: calc(var(--spacing-xl) * 2) var(--spacing-xl);
 		width: 250px;
 
 		// Icons
@@ -33,7 +33,7 @@
 				mask-size: 18px;
 				mask-position: center;
 				mask-repeat: no-repeat;
-				margin-right: 8px;
+				margin-right: var(--spacing);
 			}
 
 			&:hover {
@@ -51,19 +51,19 @@
 			}
 
 			// User settings
-			&[aria-controls="My-Account-tab"]:before {
+			&[aria-controls="My Account-tab"]:before {
 				mask-image: url(assets.$icon_user);
 			}
-			&[aria-controls="Privacy-&-Safety-tab"]:before {
+			&[aria-controls="Privacy & Safety-tab"]:before {
 				mask-image: url(assets.$icon_shield-check);
 			}
-			&[aria-controls="Authorized-Apps-tab"]:before {
+			&[aria-controls="Authorized Apps-tab"]:before {
 				mask-image: url(assets.$icon_clipboard-check);
 			}
 			&[aria-controls="Connections-tab"]:before {
 				mask-image: url(assets.$icon_link);
 			}
-			&[aria-controls="Discord-Nitro-tab"] {
+			&[aria-controls="Discord Nitro-tab"] {
 				background: transparent !important;
 				color: rgb(var(--discord-blurple));
 				svg {
@@ -80,7 +80,7 @@
 					background: rgb(114, 137, 218) !important;
 				}
 			}
-			&[aria-controls="Nitro-Server-Boost-tab"] {
+			&[aria-controls="Nitro Server Boost-tab"] {
 				color: rgb(var(--discord-nitro)) !important;
 				&:before {
 					background: currentColor;
@@ -91,7 +91,7 @@
 					background: rgb(var(--discord-nitro)) !important;
 				}
 			}
-			&[aria-controls="Library-Inventory-tab"]:before {
+			&[aria-controls="Library Inventory-tab"]:before {
 				mask-image: url(assets.$icon_gift);
 			}
 			&[aria-controls="Billing-tab"]:before {
@@ -103,10 +103,10 @@
 			&[aria-controls="Accessibility-tab"]:before {
 				mask-image: url(assets.$icon_person-circle);
 			}
-			&[aria-controls="Voice-&-Video-tab"]:before {
+			&[aria-controls="Voice & Video-tab"]:before {
 				mask-image: url(assets.$icon_microphone);
 			}
-			&[aria-controls="Text-&-Images-tab"]:before {
+			&[aria-controls="Text & Images-tab"]:before {
 				mask-image: url(assets.$icon_chat);
 			}
 			&[aria-controls="Notifications-tab"]:before {
@@ -121,13 +121,13 @@
 			// &[aria-controls="Windows-tab"]:before {
 			//   mask-image: url(assets.$icon_windows);
 			// }
-			&[aria-controls="Streamer-Mode-tab"]:before {
+			&[aria-controls="Streamer Mode-tab"]:before {
 				mask-image: url(assets.$icon_video);
 			}
 			&[aria-controls="Advanced-tab"]:before {
 				mask-image: url(assets.$icon_chip);
 			}
-			&[aria-controls="Game-Activity-tab"]:before {
+			&[aria-controls="Game Activity-tab"]:before {
 				mask-image: url(assets.$icon_rss);
 			}
 			&[aria-controls="Overlay-tab"]:before {
@@ -136,7 +136,7 @@
 			&[aria-controls="changelog-tab"]:before {
 				mask-image: url(assets.$icon_click);
 			}
-			&[aria-controls="Hypesquad-Online-tab"] {
+			&[aria-controls="Hypesquad Online-tab"] {
 				color: rgb(var(--discord-yellow));
 				&:before {
 					background: currentColor;
@@ -176,48 +176,46 @@
 			}
 
 			// Server settings
-			// &[aria-controls="OVERVIEW-tab"]:before {
-			//   mask-image: url(assets.$icon_eye);
-			// }
-			// &[aria-controls="ROLES-tab"]:before {
-			//   mask-image: url(assets.$icon_unordered-list);
-			// }
-			// &[aria-controls="EMOJI-tab"]:before {
-			//   mask-image: url(assets.$icon_emoji);
-			// }
-			// &[aria-controls="MODERATION-tab"]:before {
-			//   mask-image: url(assets.$icon_tools);
-			// }
-			// &[aria-controls="AUDIT_LOG-tab"]:before {
-			//   mask-image: url(assets.$icon_history);
-			// }
-			// &[aria-controls="INTEGRATIONS-tab"]:before {
-			//   mask-image: url(assets.$icon_link);
-			// }
-			// &[aria-controls="GUILD_TEMPLATES-tab"]:before {
-			//   mask-image: url(assets.$icon_repo-template);
-			// }
-			// &[aria-controls="COMMUNITY-tab"]:before {
-			//   mask-image: url(assets.$icon_share-android);
-			// }
-			// &[aria-controls="GUILD_PREMIUM-tab"] {
-			//   &:before {
-			//     mask-image: url(assets.$icon_zap);
-			//     background: rgb(114, 137, 218);
-			//   }
-			//   &[style*="background-color: rgb(114, 137, 218)"]:before {
-			//     background: #fff;
-			//   }
-			// }
-			// &[aria-controls="MEMBERS-tab"]:before {
-			//   mask-image: url(assets.$icon_people);
-			// }
-			// &[aria-controls="INSTANT_INVITES-tab"]:before {
-			//   mask-image: url(assets.$icon_person-add);
-			// }
-			// &[aria-controls="BANS-tab"]:before {
-			//   mask-image: url(assets.$icon_shield-x);
-			// }
+			&[aria-controls="OVERVIEW-tab"]:before {
+			  mask-image: url(assets.$icon_eye);
+			}
+			&[aria-controls="ROLES-tab"]:before {
+			  mask-image: url(assets.$icon_view-list);
+			}
+			&[aria-controls="EMOJI-tab"]:before {
+			  mask-image: url(assets.$icon_emoji-happy);
+			}
+			&[aria-controls="AUDIT_LOG-tab"]:before {
+			  mask-image: url(assets.$icon_clock);
+			}
+			&[aria-controls="INTEGRATIONS-tab"]:before {
+			  mask-image: url(assets.$icon_link);
+			}
+			&[aria-controls="GUILD_TEMPLATES-tab"]:before {
+			  mask-image: url(assets.$icon_template);
+			}
+			&[aria-controls="GUILD_PREMIUM-tab"] {
+				color: rgb(114, 137, 218);
+				svg {
+					display: none;
+				}
+			  &:before {
+			    mask-image: url(assets.$icon_lightning-bolt);
+			    background: rgb(114, 137, 218);
+			  }
+			  &.selected-3s45Ha:before {
+			    background: #fff;
+			  }
+			}
+			&[aria-controls="MEMBERS-tab"]:before {
+			  mask-image: url(assets.$icon_users);
+			}
+			&[aria-controls="INSTANT_INVITES-tab"]:before {
+			  mask-image: url(assets.$icon_user-add);
+			}
+			&[aria-controls="BANS-tab"]:before {
+			  mask-image: url(assets.$icon_shield-exclamation);
+			}
 			// &[aria-controls="DELETE-tab"] {
 			//   &:before {
 			//     mask-image: url(assets.$icon_trashcan);

@@ -7,7 +7,7 @@
 		justify-content: flex-end;
 		flex-direction: row-reverse;
 		.content-1o0f9g {
-			padding: 6px 8px;
+			padding: var(--spacing-sm) var(--spacing);
 			border-radius: var(--rounded-small);
 			color: var(--text-normal);
 			background: var(--bg-lvl-3);
@@ -19,7 +19,7 @@
 		position: relative;
 		top: 0;
 		font-size: var(--font-size-xsm);
-		padding: 6px 8px;
+		padding: var(--spacing-sm) var(--spacing);
 		border-radius: var(--rounded-small);
 		height: auto;
 		line-height: var(--font-size-xsm);
@@ -28,7 +28,7 @@
 		}
 
 		&:not(:only-child) {
-			margin-right: 8px;
+			margin-right: var(--spacing);
 		}
 	}
 }

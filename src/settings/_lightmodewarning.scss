@@ -18,10 +18,10 @@
 		font-weight: 500;
 		display: block;
 		background: rgb(var(--discord-yellow));
-		padding: 12px 20px 12px 52px;
+		padding: var(--spacing-lg) var(--spacing-2xl) var(--spacing-lg) calc(var(--spacing-2xl) * 3);
 		border-radius: var(--rounded-small);
-		margin-top: 16px;
-		margin-bottom: -16px;
+		margin-top: var(--spacing-xl);
+		margin-bottom: calc(var(--spacing-xl) / -1);
 	}
 }
 
@@ -30,7 +30,7 @@
 	align-items: center;
 	&:after {
 		content: "(Work in progress)";
-		margin-left: 8px;
+		margin-left: var(--spacing);
 		font-size: 12px;
 	}
 }

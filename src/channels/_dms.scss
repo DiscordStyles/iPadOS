@@ -13,11 +13,11 @@
 
 	.channel-2QD9_O {
 		max-width: unset;
-		margin: 0 16px;
+		margin: 0 var(--spacing-xl);
 
 		.layout-2DM8Md {
 			height: auto;
-			padding: 8px 10px;
+			padding: var(--spacing) var(--spacing-md);
 			border-radius: var(--rounded-small);
 		}
 

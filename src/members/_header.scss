@@ -1,5 +1,5 @@
 #app-mount .membersGroup-v9BXpm {
-	padding: 16px 26px 4px;
+	padding: var(--spacing-xl) calc(var(--spacing-md) + var(--spacing-xl)) var(--spacing-xs);
 	height: auto;
 	font-weight: var(--font-weight-bold);
 	color: var(--text-focus);

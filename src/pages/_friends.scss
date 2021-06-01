@@ -19,14 +19,14 @@
 			top: 0;
 			display: block;
 			height: 30px;
-			width: calc(100% - 16px);
+			width: calc(100% - var(--spacing-xl));
 			background: linear-gradient(var(--bg-lvl-0), transparent);
 			z-index: 1;
 			pointer-events: none;
 		}
 
 		& > div {
-			margin-right: 16px;
+			margin-right: var(--spacing-xl);
 			margin-top: calc(var(--app-spacing) / -1 * 2);
 		}
 	}
@@ -34,8 +34,8 @@
 		border: none;
 		border-radius: var(--rounded-large);
 		background: var(--bg-lvl-1);
-		margin: 0 0 8px;
-		padding: 0 12px;
+		margin: 0 0 var(--spacing);
+		padding: 0 var(--spacing-lg);
 	}
 
 	.nowPlayingColumn-2sl4cE {

@@ -6,7 +6,7 @@
 		position: sticky;
 		top: 0px;
 		background: var(--bg-lvl-0);
-		padding: 16px 0;
+		padding: var(--spacing-xl) 0;
 		z-index: 1;
 	}
 	.bd-view-button {
@@ -27,7 +27,7 @@
 		svg {
 			position: absolute;
 			pointer-events: none;
-			right: 8px;
+			right: var(--spacing);
 			width: 18px !important;
 			height: 18px !important;
 		}
@@ -37,7 +37,7 @@
 	}
 	.bd-search {
 		font-size: 14px;
-		padding: 8px 38px 8px 12px;
+		padding: var(--spacing) calc(var(--spacing-2xl) * 2) var(--spacing) var(--spacing-lg);
 		width: 350px;
 	}
 
@@ -53,7 +53,7 @@
 
 	#iPadOS-card .bd-description:after {
 		display: block;
-		margin-top: 4px;
+		margin-top: var(--spacing-xs);
 		content: "Found an issue? Submit a issue on: https://github.com/DiscordStyles/iPadOS or by clicking the source button below.";
 	}
 }

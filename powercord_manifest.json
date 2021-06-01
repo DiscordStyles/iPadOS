@@ -1,7 +1,7 @@
 {
 	"name": "iPadOS",
 	"description": "Discord redesigned to be simplified. Design by jacktompsett on Behance.",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"author": "Gibbu#1211",
 	"theme": "iPadOS.theme.css",
 	"consent": ["ext_listing"],
