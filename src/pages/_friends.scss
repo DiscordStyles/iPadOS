@@ -1,10 +1,9 @@
 #app-mount {
 	.container-1D34oG {
 		background: transparent;
-		overflow: visible;
+		width: calc(100vw - var(--sidebar-width) - 72px - var(--app-spacing) * 3);
 	}
 	.tabBody-3YRQ8W {
-		overflow: visible;
 		&:before {
 			content: none;
 		}
@@ -12,18 +11,7 @@
 
 	.peopleList-3c4jOR {
 		margin-top: var(--app-spacing);
-		padding-bottom: calc(var(--app-spacing) * 3);
-		&:before {
-			content: "";
-			position: sticky;
-			top: 0;
-			display: block;
-			height: 30px;
-			width: calc(100% - var(--spacing-xl));
-			background: linear-gradient(var(--bg-lvl-0), transparent);
-			z-index: 1;
-			pointer-events: none;
-		}
+		padding-bottom: 0;
 
 		& > div {
 			margin-right: var(--spacing-xl);
@@ -39,25 +27,43 @@
 	}
 
 	.nowPlayingColumn-2sl4cE {
-		margin-top: var(--app-spacing);
+		margin: var(--app-spacing) 0 0 var(--app-spacing);
 		border-radius: var(--rounded-large);
 		box-shadow: var(--elevation-close);
-		margin-left: var(--app-spacing);
 		overflow: hidden;
+		min-width: unset;
 	}
 	.container-lRFx4q {
 		background: var(--bg-lvl-1);
 	}
+	.header-2SF4Nh {
+		margin-top: 0;
+	}
 	.scroller-2ZPeAD {
 		border: none;
 		margin-left: 0;
+		padding: var(--spacing-xl);
+	}
+	.section-2gLsgF {
+		background: var(--bg-lvl-1);
+		padding: var(--spacing);
 	}
 	.wrapper-3D2qGf {
+		padding: var(--spacing-xl);
 		border: none;
 		background: var(--bg-lvl-2);
 		border-radius: var(--rounded-small);
 		&:hover {
 			background: var(--bg-lvl-3);
+			.section-2gLsgF {
+				background: var(--bg-lvl-2);
+			}
 		}
+	}
+}
+
+@media only screen and (max-width: 1740px) {
+	.nowPlayingColumn-2sl4cE {
+		display: none;
 	}
 }

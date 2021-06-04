@@ -46,5 +46,7 @@
 		margin-top: calc(var(--app-spacing) / -1 - 4px);
 		margin-bottom: var(--app-spacing);
 		background: var(--bg-lvl-1);
+		border: none;
+		border-bottom-right-radius: var(--rounded-large);
 	}
 }

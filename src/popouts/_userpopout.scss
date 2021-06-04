@@ -8,10 +8,10 @@
 	}
 	.wrapper-3t9DeA {
 		border-radius: var(--rounded-large);
-		border-color: var(--bg-lvl-2);
-		background: var(--bg-lvl-2);
+		border-color: var(--bg-lvl-1);
+		background: var(--bg-lvl-1);
 		rect {
-			stroke: var(--bg-lvl-2) !important;
+			stroke: var(--bg-lvl-1) !important;
 		}
 	}
 	.avatarHint-1E3LMl {
@@ -24,10 +24,10 @@
 	}
 
 	// Header
-	.headerTop-2y3V6H {
-		background: var(--bg-lvl-2);
+	.headerTop-2cWpdB {
+		background: var(--bg-lvl-1);
 		border: none;
-		padding: calc(var(--spacing-2xl) + 30px) var(--spacing-xl) var(--spacing-xl);
+		padding: calc(var(--spacing-3xl) + 40px) var(--spacing-xl) var(--spacing-xl);
 	}
 	.aboutMeSection-3bipSD {
 		background: transparent;
@@ -36,7 +36,7 @@
 	// Body
 	.body-3iLsc4 {
 		background: var(--bg-lvl-1);
-		padding: var(--spacing-xl);
+		padding: 0 var(--spacing-xl) var(--spacing-xl);
 	}
 	.bodyTitle-Y0qMQz {
 		color: var(--text-focus);

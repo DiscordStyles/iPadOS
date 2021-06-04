@@ -14,10 +14,11 @@
 	}
 	.attachButton-2dnuIu {
 		margin-left: 0;
-		padding: 0 20px 0 21px;
+		padding: 0;
 		height: auto;
 		color: var(--text-muted);
 		transition: color .15s ease;
+		width: calc(var(--chat-avatar-size) + var(--message-padding));
 		&:hover {
 			color: var(--text-normal);
 		}
@@ -31,7 +32,7 @@
 			color: inherit;
 			display: block;
 			font-weight: bold;
-			font-size: var(--font-size-3xl);
+			font-size: var(--font-size-2xl);
 		}
 		svg {
 			display: none;
@@ -54,7 +55,7 @@
 	}
 	.placeholder-37qJjk {
 		height: 64px;
-		padding: 0 24px;
+		padding: 0 var(--spacing-xl);
 		display: flex;
 		align-items: center;
 		font-weight: var(--font-weight-normal);
@@ -63,7 +64,7 @@
 		min-height: 64px;
 		font-weight: var(--font-weight-normal);
 		box-sizing: border-box;
-		padding: 16px 24px;
+		padding: var(--spacing-xl);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -74,7 +75,7 @@
 	.buttons-3JBrkn {
 		margin-right: 0;
 		height: unset;
-		padding: 16px 0 0 16px;
+		padding: var(--spacing-xl) 0 0 var(--spacing-xl);
 		align-items: flex-start;
 		position: relative;
 	}
