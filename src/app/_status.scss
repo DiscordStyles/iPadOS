@@ -69,7 +69,6 @@
 			stroke-width: 2px;
 			width: 12px;
 			height: 12px;
-			stroke-width: 2px;
 			y: 29px;
 			x: 29px;
 		}
@@ -79,10 +78,9 @@
 	&[style*="80"] .svg-2V3M55 {
 		rect {
 			stroke: var(--bg-lvl-2);
-			stroke-width: 2px;
+			stroke-width: 4px;
 			width: 18px;
 			height: 18px;
-			stroke-width: 4px;
 		}
 		& > svg > rect {
 			x: 14px;
