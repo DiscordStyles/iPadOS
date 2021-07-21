@@ -32,11 +32,11 @@
 		.header-23xsNx {
 			margin-bottom: calc(var(--message-padding) / 2);
 			display: flex;
-		}
-		.timestampInline-yHQ6fX {
-			flex: 1;
-			display: flex;
-			justify-content: flex-end;
+			.timestampInline-yHQ6fX {
+				flex: 1;
+				display: flex;
+				justify-content: flex-end;
+			}
 		}
 
 		.spoilerText-3p6IlD {
@@ -67,6 +67,10 @@
 			&:before {
 				content: none;
 			}
+		}
+		.repliedTextContent-1R3vnK {
+			display: flex;
+			align-items: center;
 		}
 
 		// Editing messages

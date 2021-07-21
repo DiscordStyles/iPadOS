@@ -1,0 +1,28 @@
+#app-mount {
+	.searchResultsWrap-3-pOjs {
+		margin: var(--app-spacing) 0 0 var(--app-spacing);
+		border-radius: var(--rounded-large);
+		background: var(--bg-lvl-1);
+		box-shadow: var(--elevation-close);
+		width: 500px;
+	}
+	.searchHeader-2XoQg7 {
+		background: var(--bg-lvl-2);
+	}
+	.channelName-1JRO3C {
+		background: var(--bg-lvl-1);
+	}
+	.searchResult-9tQ1uo {
+		background: transparent;
+		.repliedMessage-VokQwo {
+			background: var(--bg-lvl-2);
+		}
+		.cozy-3raOZG {
+			background: var(--bg-lvl-3);
+			border-radius: var(--rounded-large);
+			&:hover {
+				background: var(--bg-lvl-3) !important;
+			}
+		}
+	}
+}

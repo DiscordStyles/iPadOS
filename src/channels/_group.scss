@@ -6,8 +6,11 @@
 		padding: 0;
 		margin: 0 var(--spacing) var(--spacing-xs);
 		cursor: default;
-		&.muted-2JBAyG .container-2ax-kl {
-			color: var(--text-muted);
+		&.muted-2JBAyG {
+			.container-2ax-kl,
+			.mainContent-2h-GEV {
+				color: var(--text-muted);
+			}
 		}
 	}
 	.arrow-gKvcEx {

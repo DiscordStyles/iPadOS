@@ -2,7 +2,8 @@
 	.css-gvi9bl-control,
 	.css-17e1tep-control,
 	.css-x3hllb-control,
-	.css-z86t1q-control {
+	.css-z86t1q-control,
+	.lookFilled-22uAsw.select-2fjwPw {
 		background: var(--bg-lvl-1);
 		border: none;
 		border-radius: var(--rounded-large);
@@ -25,7 +26,8 @@
 
 	// Dropdown
 	.css-3vaxre-menu,
-	.css-1x99fvh-menu {
+	.css-1x99fvh-menu,
+	.popout-VcNcHB {
 		background: var(--bg-lvl-2);
 		border: none;
 		box-shadow: var(--elevation-far);
@@ -36,20 +38,19 @@
 
 	// Hovered menu item
 	.css-rzbxvl-option,
-	.css-pkcurw-option {
+	.css-pkcurw-option,
+	.option-3KoAJB:hover {
 		background: var(--bg-lvl-3);
 	}
 
 	// Selected menu item
 	.css-1ba14n5-option,
-	.css-1gxgi19-option {
+	.css-1gxgi19-option,
+	.option-3KoAJB[aria-selected="true"] {
 		background: rgb(var(--accent));
 		color: #fff;
-	}
-
-	// 
-	.deviceOption-o4yLlI,
-	.deviceOptionLabel-22FM_u {
-		width: 100%;
+		.selectedIcon-3uS11H {
+			color: #fff;
+		}
 	}
 }

@@ -1,0 +1,102 @@
+#app-mount {
+	.recentMentionsPopout-3rCiI6 {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		height: 60vh;
+		min-width: 60vh;
+		max-width: 60vh;
+		width: 70vw;
+		transform: translate(-50%, -50%);
+		overflow: visible;
+		box-shadow: var(--elevation-far);
+		border-radius: var(--rounded-large);
+		background: var(--bg-lvl-0);
+
+		.scroller-2UmRce,
+		.scroller-tlc3kG {
+			padding: 0 !important;
+			background: var(--bg-lvl-0);
+			border-radius: 0 0 var(--rounded-large) var(--rounded-large);
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+		.container-3u944p {
+			background: var(--bg-lvl-0);
+		}
+		
+		.header-2-Imhb {
+			border-radius: var(--rounded-large) var(--rounded-large) 0 0;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-areas: "title title" "actions filter";
+			height: 104px;
+			min-height: 104px;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			padding: var(--spacing-xl);
+			&:before {
+				content: "Inbox";
+				color: var(--text-focus);
+				font-size: var(--font-size-xl);
+				margin-bottom: var(--spacing-xl);
+			}
+		}
+		.tabBar-1kuXvJ {
+			display: flex;
+			align-items: center;
+			grid-area: actions;
+			height: 32px;
+			& + div {
+				grid-area: filter;
+				display: flex;
+				justify-content: flex-end;
+			}
+		}
+		.tab-ck0077 {
+			margin: 0 var(--spacing) 0 0;
+			&.selected-3s45Ha {
+				background: rgb(var(--accent));
+				color: #fff;
+			}
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -100%;
+			right: -100%;
+			bottom: -100%;
+			left: -100%;
+			background: var(--backdrop);
+			pointer-events: none;
+			z-index: -1;
+		}
+	}
+	.container-3iAQ-0 {
+		padding-right: 0;
+	}
+	.channelHeader-3Gd2xq {
+		background: var(--bg-lvl-0);
+		padding: var(--spacing-xl);
+	}
+	.messageContainer-gbhlwo {
+		background: transparent;
+		border-radius: 0;
+		padding-top: 0;
+		.cozy-3raOZG {
+			background: var(--bg-lvl-2);
+			border-radius: var(--rounded-large);
+			overflow: visible;
+			margin-left: 82px;
+			&:hover {
+				background: var(--bg-lvl-2) !important;
+			}
+		}
+		.avatar-1BDn8e {
+			left: calc(var(--chat-avatar-size) / -1 - 10px);
+		}
+	}
+}
