@@ -1,6 +1,9 @@
 @use 'theme';
 
-@use 'base';
+@use 'root';
+@use 'light';
+@use 'dark';
+@use 'keyframes';
 
 @use 'app';
 @use 'channels';

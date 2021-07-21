@@ -1,4 +1,6 @@
 :root {
+  --ipados-file-version: "0.1";
+  --ipados-base-version: "0.1.2 [BETA]";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -52,7 +54,28 @@
   --discord-twitch: 89 54 149;
   --discord-xbox: 16 124 16;
   --font-display: var(--font);
-  --ipados-version: "0.1.2 [BETA]";
+}
+
+.theme-light,
+html.theme-light #app-mount .theme-light .root-1gCeng,
+html.theme-light .force-theme.theme-light {
+  --bg-lvl-0: #d1d5db;
+  --bg-lvl-1: #e5e7eb;
+  --bg-lvl-2: #f3f4f6;
+  --bg-lvl-3: #ffffff;
+  --status-online: #6DD400;
+  --status-idle: #F7B400;
+  --status-dnd: #E02020;
+  --status-offline: #2F3034;
+  --text-muted: #9ba3af;
+  --text-normal: #374252;
+  --text-focus: #1f2937;
+  --button: var(--bg-lvl-3);
+  --button-hover: #2b2d30;
+  --button-hover-text: #fff;
+  --interactive-muted: var(--text-muted);
+  --interactive-active: var(--text-focus);
+  --channels-default: var(--text-normal);
 }
 
 .theme-dark,
@@ -78,28 +101,6 @@ html.theme-dark .force-theme.theme-light {
   --interactive-normal: var(--text-normal);
   --interactive-active: #fff;
   --background-modifier-hover: rgb(255 255 255 / .02);
-  --channels-default: var(--text-normal);
-}
-
-.theme-light,
-html.theme-light #app-mount .theme-light .root-1gCeng,
-html.theme-light .force-theme.theme-light {
-  --bg-lvl-0: #d1d5db;
-  --bg-lvl-1: #e5e7eb;
-  --bg-lvl-2: #f3f4f6;
-  --bg-lvl-3: #ffffff;
-  --status-online: #6DD400;
-  --status-idle: #F7B400;
-  --status-dnd: #E02020;
-  --status-offline: #2F3034;
-  --text-muted: #9ba3af;
-  --text-normal: #374252;
-  --text-focus: #1f2937;
-  --button: var(--bg-lvl-3);
-  --button-hover: #2b2d30;
-  --button-hover-text: #fff;
-  --interactive-muted: var(--text-muted);
-  --interactive-active: var(--text-focus);
   --channels-default: var(--text-normal);
 }
 
@@ -812,12 +813,20 @@ html.theme-light .force-theme.theme-light {
 }
 #app-mount .cozy-3raOZG .header-23xsNx {
   margin-bottom: calc(var(--message-padding) / 2);
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+#app-mount .cozy-3raOZG .timestampInline-yHQ6fX {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 #app-mount .cozy-3raOZG .spoilerText-3p6IlD.hidden-HHr2R9 {
   background: var(--bg-lvl-0);
@@ -1230,7 +1239,6 @@ html.theme-light .force-theme.theme-light {
   line-height: var(--font-size-lg);
   font-size: var(--font-size-sm);
   padding: var(--spacing-sm) var(--spacing-lg);
-  height: auto;
   min-height: auto;
   -webkit-transition: -webkit-box-shadow 0.15s ease;
   transition: -webkit-box-shadow 0.15s ease;
@@ -1343,6 +1351,7 @@ html.theme-light .force-theme.theme-light {
 #app-mount [role=radiogroup] .item-26Dhrx .radioBar-bMNUI- {
   padding: var(--spacing-md) var(--spacing-xl) !important;
   grid-gap: 16px;
+  border-left-width: 6px;
 }
 #app-mount [role=radiogroup] .item-26Dhrx:hover {
   background: var(--bg-lvl-2);
@@ -1414,6 +1423,10 @@ html.theme-light .force-theme.theme-light {
 #app-mount .css-1gxgi19-option {
   background: rgb(var(--accent));
   color: #fff;
+}
+#app-mount .deviceOption-o4yLlI,
+#app-mount .deviceOptionLabel-22FM_u {
+  width: 100%;
 }
 
 #app-mount .checkboxWrapper-SkhIWG .checkbox-1ix_J3 {
@@ -1605,7 +1618,7 @@ html.theme-light .force-theme.theme-light {
 }
 #app-mount .root-3QyAh1 .relationshipButtons-pUQVkf {
   position: absolute;
-  top: calc(-45px - var(--spacing-xl));
+  top: calc(-78px - var(--spacing-xl));
   right: var(--spacing-md);
 }
 #app-mount .root-3QyAh1 .tabBarContainer-37hZsr {
@@ -1679,6 +1692,7 @@ html.theme-light .force-theme.theme-light {
   overflow: hidden;
   -webkit-box-shadow: var(--elevation-far);
           box-shadow: var(--elevation-far);
+  border: none;
 }
 #app-mount .root-3QyAh1 .infoScroller-1Qu30O {
   padding: var(--spacing-xl);
@@ -1767,10 +1781,10 @@ html.theme-light .force-theme.theme-light {
 #app-mount .userPopout-xaxa6l .headerText-1HLrL7 {
   color: var(--text-focus);
 }
-#app-mount .userPopout-xaxa6l .setIdentityLink-OpBDR6 {
+#app-mount .userPopout-xaxa6l .setIdentityLink-1t8Ahd {
   display: none;
 }
-#app-mount .userPopout-xaxa6l .avatarWrapper-1-5NA0 {
+#app-mount .userPopout-xaxa6l .avatarWrapper-3r9PdD {
   left: calc(var(--spacing-xl) - 6px);
 }
 #app-mount .userPopout-xaxa6l .wrapper-3t9DeA {
@@ -1790,23 +1804,29 @@ html.theme-light .force-theme.theme-light {
   -webkit-mask: none;
           mask: none;
 }
-#app-mount .userPopout-xaxa6l .headerNormal-1mX3KY {
+#app-mount .userPopout-xaxa6l .headerNormal-3KXFBt {
   background: var(--bg-lvl-1);
 }
-#app-mount .userPopout-xaxa6l .headerTop-2cWpdB {
+#app-mount .userPopout-xaxa6l .headerTop-3vNv-a {
   background: var(--bg-lvl-1);
   border: none;
   padding: calc(var(--spacing-3xl) + 34px) var(--spacing-xl) var(--spacing-xl);
 }
-#app-mount .userPopout-xaxa6l .aboutMeSection-3bipSD {
+#app-mount .userPopout-xaxa6l .aboutMeSection-1Fw5Ia {
   background: transparent;
 }
 #app-mount .userPopout-xaxa6l .body-3HBlXn {
   background: var(--bg-lvl-1);
   padding: var(--spacing-xl);
 }
+#app-mount .userPopout-xaxa6l .bodyInnerWrapper-26fQXj {
+  background: transparent;
+}
 #app-mount .userPopout-xaxa6l .bodyTitle-3FWCs2 {
   color: var(--text-focus);
+}
+#app-mount .userPopout-xaxa6l .divider-ewBQKj {
+  display: none;
 }
 #app-mount .userPopout-xaxa6l .activity-3v9l4T {
   padding: 0 var(--spacing-xl);
@@ -1859,11 +1879,11 @@ html.theme-light .force-theme.theme-light {
   width: 100%;
   height: 100%;
 }
-#app-mount .userPopout-xaxa6l .footer-1N3bR3 {
+#app-mount .userPopout-xaxa6l .footer-3UKYOU {
   background: var(--bg-lvl-1);
   padding: 0;
 }
-#app-mount .userPopout-xaxa6l .footer-1N3bR3 .inputWrapper-31_8H8 {
+#app-mount .userPopout-xaxa6l .footer-3UKYOU .inputWrapper-31_8H8 {
   margin: 0 var(--spacing-xl) var(--spacing-xl);
 }
 #app-mount .userPopout-xaxa6l .protip-2urNh2 {
@@ -1904,11 +1924,11 @@ html.theme-light .force-theme.theme-light {
   -webkit-box-shadow: var(--input-focus);
           box-shadow: var(--input-focus);
 }
-#app-mount .userPopout-xaxa6l[style*="--user-background"] .profileBanner-33-uE1 {
+#app-mount .userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d {
   height: 120px;
   background: var(--user-background) center/cover no-repeat;
 }
-#app-mount .userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+#app-mount .userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn {
   top: 74px;
 }
 
@@ -2275,7 +2295,7 @@ html.theme-light .force-theme.theme-light {
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .background-1QDuV2 {
-  background: var(--bg-lvl-1);
+  background: var(--bg-lvl-2);
   border-radius: var(--rounded-large);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .avatarUploaderInner-3UNxY3 {
@@ -2290,46 +2310,27 @@ html.theme-light .force-theme.theme-light {
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .fieldList-21DyL8 {
   background: var(--bg-lvl-2);
 }
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .accountList-33MS45 {
+  border-radius: var(--rounded-large);
+  background: var(--bg-lvl-1);
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .accountBtnInner-sj5jLs {
+  background-color: var(--bg-lvl-2);
+  -webkit-transition: background 0.15s ease;
+  transition: background 0.15s ease;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .accountBtnInner-sj5jLs:hover {
+  background-color: var(--bg-lvl-3);
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .connection-1fbD7X {
+  background: var(--bg-lvl-1);
+  border-radius: var(--rounded-large);
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .connectionHeader-2MDqhu {
+  background: var(--bg-lvl-2);
+}
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .preview-2nSL_2 {
   display: none;
-}
-
-.theme-light #Appearance-tab > div > h1:before {
-  content: "";
-  width: 24px;
-  height: 24px;
-  display: block;
-  position: absolute;
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>');
-  background: currentColor;
-  top: 85px;
-  left: 46px;
-}
-.theme-light #Appearance-tab > div > h1:after {
-  content: "Light theme for iPadOS is currently a work in progress. Some areas may be broken or not look good.";
-  font-size: 16px;
-  font-weight: 500;
-  display: block;
-  background: rgb(var(--discord-yellow));
-  padding: var(--spacing-lg) var(--spacing-2xl) var(--spacing-lg) calc(var(--spacing-2xl) * 3);
-  border-radius: var(--rounded-small);
-  margin-top: var(--spacing-xl);
-  margin-bottom: calc(var(--spacing-xl) / -1);
-}
-
-#Appearance-tab > div > div > div.marginTop40-i-78cZ > div:nth-child(2) > div:nth-child(2) > div > div > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-#Appearance-tab > div > div > div.marginTop40-i-78cZ > div:nth-child(2) > div:nth-child(2) > div > div > div:after {
-  content: "(Work in progress)";
-  margin-left: var(--spacing);
-  font-size: 12px;
 }
 
 #app-mount .container-1D34oG {
@@ -2455,5 +2456,6 @@ html.theme-light .force-theme.theme-light {
 #app-mount #iPadOS-card .bd-description:after {
   display: block;
   margin-top: var(--spacing-xs);
-  content: "Found an issue? Submit a issue on: https://github.com/DiscordStyles/iPadOS or by clicking the source button below.";
+  white-space: pre-wrap;
+  content: "File version: " var(--ipados-file-version) "\a Base version: " var(--ipados-base-version);
 }

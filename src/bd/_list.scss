@@ -54,6 +54,7 @@
 	#iPadOS-card .bd-description:after {
 		display: block;
 		margin-top: var(--spacing-xs);
-		content: "Found an issue? Submit a issue on: https://github.com/DiscordStyles/iPadOS or by clicking the source button below.";
+		white-space: pre-wrap;
+		content: "File version: " var(--ipados-file-version)"\A Base version: " var(--ipados-base-version);
 	}
 }

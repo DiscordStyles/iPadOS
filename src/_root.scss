@@ -1,6 +1,9 @@
-@use '../assets';
+@use './assets';
 
 :root {
+	--ipados-file-version: '0.1';
+	--ipados-base-version: '0.1.2 [BETA]';
+
 	// Roundness
 	--rounded-small: 4px;
 	--rounded-large: 8px;
@@ -79,6 +82,4 @@
 
 	// Discord variables
 	--font-display: var(--font);
-
-	--ipados-version: '0.1.2 [BETA]';
 }

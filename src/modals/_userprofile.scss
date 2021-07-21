@@ -108,7 +108,7 @@ $bannerHeight: 200px;
 	// Actions
 	.relationshipButtons-pUQVkf {
 		position: absolute;
-		top: calc(-45px - var(--spacing-xl));
+		top: calc(-78px - var(--spacing-xl));
 		right: var(--spacing-md);
 	}
 
@@ -177,6 +177,7 @@ $bannerHeight: 200px;
 		border-radius: var(--rounded-large);
 		overflow: hidden;
 		box-shadow: var(--elevation-far);
+		border: none;
 	}
 	.infoScroller-1Qu30O {
 		padding: var(--spacing-xl);

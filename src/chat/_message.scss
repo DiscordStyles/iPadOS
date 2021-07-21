@@ -5,7 +5,6 @@
 		margin-left: var(--spacing);
 	}
 
-
 	.cozy-3raOZG {
 		position: relative;
 		padding: var(--message-padding) !important;
@@ -32,8 +31,12 @@
 
 		.header-23xsNx {
 			margin-bottom: calc(var(--message-padding) / 2);
-			justify-content: space-between;
 			display: flex;
+		}
+		.timestampInline-yHQ6fX {
+			flex: 1;
+			display: flex;
+			justify-content: flex-end;
 		}
 
 		.spoilerText-3p6IlD {
