@@ -13,11 +13,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* iPadOS base css */
-@import url('https://discordstyles.github.io/iPadOS/iPadOS.css');
+@import url('https://discordstyles.github.io/iPadOS/dist/iPadOS.css');
 
 /**
  * You can view more variables to customize here: https://github.com/DiscordStyles/iPadOS/blob/main/src/base/_root.scss
- * Simply copy the variable and value below inside the :root {}
+ * Simply copy the variable and value below inside the :root {} below
  */
 :root {
   --accent: 84, 116, 230;
