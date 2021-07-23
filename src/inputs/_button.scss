@@ -22,7 +22,7 @@
 
 .button-1YfofB.buttonColor-7qQbGO {
 	background: var(--bg-lvl-3);
-	border-radius: var(--rounded-large);
+	border-radius: var(--rounded-small);
 	&:hover {
 		background: var(--bg-lvl-2);
 	}
@@ -31,7 +31,7 @@
 
 .bd-button {
 	background: rgb(var(--accent));
-	border-radius: var(--rounded-large);
+	border-radius: var(--rounded-small);
 	&:hover {
 		background: rgb(var(--accent));
 		box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .1);

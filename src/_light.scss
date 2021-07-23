@@ -1,41 +1,41 @@
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
-	--bg-lvl-0: #d1d5db;
-	--bg-lvl-1: #e5e7eb;
-	--bg-lvl-2: #f3f4f6;
-	--bg-lvl-3: #ffffff;
+	--bg-lvl-0: hsl(216, 12%, 82%);
+	--bg-lvl-1: hsl(220, 13%, 90%);
+	--bg-lvl-2: hsl(220, 14%, 96%);
+	--bg-lvl-3: hsl(0, 0%, 100%);
 
-	--status-online: #6DD400;
-	--status-idle: #F7B400;
-	--status-dnd: #E02020;
-	--status-offline: #2F3034;
+	--status-online: hsl(89, 100%, 42%);
+	--status-idle: hsl(44, 100%, 48%);
+	--status-dnd: hsl(0, 76%, 50%);
+	--status-offline: hsl(228, 5%, 19%);
 
-	--text-muted: #9ba3af;
-	--text-normal: #374252;
-	--text-focus: #000;
+	--text-muted: hsl(216, 11%, 65%);
+	--text-normal: hsl(216, 20%, 27%);
+	--text-focus: hsl(0, 0%, 0%);
 
 	// Button colours
 	--button: var(--bg-lvl-3);
-	--button-hover: #2b2d30;
-	--button-hover-text: #fff;
+	--button-hover: hsl(216, 5%, 18%);
+	--button-hover-text: hsl(0, 0%, 100%);
 
 	// Box shadows
-	--elevation-close: 0 1px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.06);
-	--elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.25), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+	--elevation-close: 0 1px 12px 0 hsl(0, 0%, 0%, 0.1), 0 1px 6px 0 hsl(0, 0%, 0%, 0.06);
+	--elevation-far: 0 10px 15px -3px hsl(0, 0%, 0%, 0.25), 0 4px 6px -2px hsl(0, 0%, 0%, 0.2);
 
 	// Inputs
-	--input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
+	--input-focus: inset 0 0 0 100vmax hsl(0, 0%, 0%, 0.2);
 
 	// Others
-	--backdrop: rgb(0 0 0 / .6);
+	--backdrop: hsl(0, 0%, 0%, 0.6);
 
 	// Discord variables
 	--interactive-muted: var(--text-muted);
 	--interactive-normal: var(--text-normal);
 	--interactive-active: var(--text-focus);
 
-	--background-modifier-hover: rgb(255 255 255 / .02);
+	--background-modifier-hover: hsl(0, 0%, 0%, 0.2);
 
 	--channels-default: var(--text-normal);
 }

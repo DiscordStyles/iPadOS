@@ -4,11 +4,27 @@
 		box-shadow: var(--elevation-far);
 		border-radius: var(--rounded-large);
 	}
+	.backdrop-1wrmKB {
+		background: var(--backdrop) !important;
+	}
+	.header-1TKi98 {
+		overflow: visible;
+		padding: var(--spacing-xl) var(--spacing-xl) 0 var(--spacing-xl);
+		.base-1x0h_U {
+			color: var(--text-focus);
+		}
+		.colorHeaderSecondary-3Sp3Ft {
+			color: var(--text-normal);
+		}
+	}
 	.footer-2gL1pp {
 		background: var(--bg-lvl-1);
 		box-shadow: none;
+		.button-38aScr.lookBlank-3eh9lL {
+			color: var(--text-normal);
+		}
 	}
-	.backdrop-1wrmKB {
-		background: var(--backdrop) !important;
+	.backButton-iA7KIs {
+		color: var(--text-normal);
 	}
 }

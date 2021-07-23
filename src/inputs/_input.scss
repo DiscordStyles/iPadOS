@@ -1,7 +1,7 @@
 #app-mount {
 	.textarea-2r0oV8 {
 		border: none;
-		border-radius: var(--rounded-large);
+		border-radius: var(--rounded-small);
 		transition: box-shadow .15s ease;
 		&::placeholder {
 			font-weight: inherit;
@@ -14,7 +14,7 @@
 	}
 	.input-cIJ7To {
 		border: none;
-		border-radius: var(--rounded-large);
+		border-radius: var(--rounded-small);
 		background: var(--bg-lvl-2);
 		&:focus {
 			box-shadow: var(--input-focus);
@@ -33,7 +33,7 @@
 	.container-1nZlH6 {
 		border-color: var(--bg-lvl-1);
 		background: var(--bg-lvl-1);
-		border-radius: var(--rounded-large);
+		border-radius: var(--rounded-small);
 		&:hover {
 			border-color: rgb(var(--accent));
 		}

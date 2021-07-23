@@ -26,7 +26,7 @@ sass.render({
 		.then(postcssRes => {
 			fs.writeFile('dist/iPadOS.css', postcssRes.css, (err) => {
 				if (err) console.error(err);
-				else console.log('Successfully built iPadOS.css file.');
+				else console.log(`Successfully built iPadOS.css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 			})
 		})
 })

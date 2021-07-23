@@ -6,8 +6,11 @@
 	.lookFilled-22uAsw.select-2fjwPw {
 		background: var(--bg-lvl-1);
 		border: none;
-		border-radius: var(--rounded-large);
+		border-radius: var(--rounded-small);
 		cursor: pointer;
+		&:hover {
+			background: var(--bg-lvl-2);
+		}
 	}
 
 	.css-4h5swf-singleValue,
@@ -18,9 +21,9 @@
 	// Selected
 	.css-6fzn47-control,
 	.css-1ou54ee-control {
-		background: var(--bg-lvl-2);
+		background: var(--bg-lvl-3);
 		border: none;
-		border-radius: var(--rounded-large);
+		border-radius: var(--rounded-small);
 		cursor: pointer;
 	}
 
@@ -31,7 +34,7 @@
 		background: var(--bg-lvl-2);
 		border: none;
 		box-shadow: var(--elevation-far);
-		border-radius: var(--rounded-large);
+		border-radius: var(--rounded-small);
 		margin-top: var(--spacing);
 		overflow: hidden;
 	}

@@ -1,0 +1,26 @@
+#app-mount {
+	.templatesList-2E6rTe {
+		padding: 0 var(--spacing) 0 var(--spacing-xl);
+		.colorHeaderSecondary-3Sp3Ft {
+			color: var(--text-normal);
+		}
+		& + div > h3 {
+			display: none;
+		}
+	}
+	.optionsList-3UMAjx .colorHeaderSecondary-3Sp3Ft {
+		color: var(--text-normal);
+	}
+
+	.container-UC8Ug1 {
+		background: var(--bg-lvl-1);
+		transition: background .15s ease;
+		margin-bottom: var(--spacing-xl);
+		.colorStandard-2KCXvj {
+			color: var(--text-focus);
+		}
+		&:hover {
+			background: var(--bg-lvl-2);
+		}
+	}
+}

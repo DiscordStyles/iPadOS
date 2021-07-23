@@ -1,6 +1,6 @@
 :root {
   --ipados-file-version: "0.1";
-  --ipados-base-version: "0.1.5 [BETA]";
+  --ipados-base-version: "0.1.6 [BETA]";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -57,56 +57,56 @@
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
-  --bg-lvl-0: #d1d5db;
-  --bg-lvl-1: #e5e7eb;
-  --bg-lvl-2: #f3f4f6;
-  --bg-lvl-3: #ffffff;
-  --status-online: #6DD400;
-  --status-idle: #F7B400;
-  --status-dnd: #E02020;
-  --status-offline: #2F3034;
-  --text-muted: #9ba3af;
-  --text-normal: #374252;
-  --text-focus: #000;
+  --bg-lvl-0: hsl(216, 12%, 82%);
+  --bg-lvl-1: hsl(220, 13%, 90%);
+  --bg-lvl-2: hsl(220, 14%, 96%);
+  --bg-lvl-3: hsl(0, 0%, 100%);
+  --status-online: hsl(89, 100%, 42%);
+  --status-idle: hsl(44, 100%, 48%);
+  --status-dnd: hsl(0, 76%, 50%);
+  --status-offline: hsl(228, 5%, 19%);
+  --text-muted: hsl(216, 11%, 65%);
+  --text-normal: hsl(216, 20%, 27%);
+  --text-focus: hsl(0, 0%, 0%);
   --button: var(--bg-lvl-3);
-  --button-hover: #2b2d30;
-  --button-hover-text: #fff;
-  --elevation-close: 0 1px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.06);
-  --elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.25), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
-  --input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
-  --backdrop: rgb(0 0 0 / .6);
+  --button-hover: hsl(216, 5%, 18%);
+  --button-hover-text: hsl(0, 0%, 100%);
+  --elevation-close: 0 1px 12px 0 hsl(0, 0%, 0%, 0.1), 0 1px 6px 0 hsl(0, 0%, 0%, 0.06);
+  --elevation-far: 0 10px 15px -3px hsl(0, 0%, 0%, 0.25), 0 4px 6px -2px hsl(0, 0%, 0%, 0.2);
+  --input-focus: inset 0 0 0 100vmax hsl(0, 0%, 0%, 0.2);
+  --backdrop: hsl(0, 0%, 0%, 0.6);
   --interactive-muted: var(--text-muted);
   --interactive-normal: var(--text-normal);
   --interactive-active: var(--text-focus);
-  --background-modifier-hover: rgb(255 255 255 / .02);
+  --background-modifier-hover: hsl(0, 0%, 0%, 0.2);
   --channels-default: var(--text-normal);
 }
 
 .theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng,
 html.theme-dark .force-theme.theme-light {
-  --bg-lvl-0: #141518;
-  --bg-lvl-1: #1f2226;
-  --bg-lvl-2: #2b2e34;
-  --bg-lvl-3: #363b42;
-  --status-online: #6DD400;
-  --status-idle: #F7B400;
-  --status-dnd: #E02020;
-  --status-offline: #2F3034;
-  --text-muted: #888;
-  --text-normal: #ccc;
-  --text-focus: #fff;
-  --button: #2b2d30;
-  --button-hover: #fff;
-  --button-hover-text: #1f2937;
-  --elevation-close: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
-  --input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
-  --backdrop: rgb(0 0 0 / .8);
+  --bg-lvl-0: hsl(225, 9%, 9%);
+  --bg-lvl-1: hsl(225, 10%, 15%);
+  --bg-lvl-2: hsl(225, 11%, 21%);
+  --bg-lvl-3: hsl(225, 12%, 27%);
+  --status-online: hsl(89, 100%, 42%);
+  --status-idle: hsl(44, 100%, 48%);
+  --status-dnd: hsl(0, 76%, 50%);
+  --status-offline: hsl(228, 5%, 19%);
+  --text-muted: hsl(0, 0%, 53%);
+  --text-normal: hsl(0, 0%, 85%);
+  --text-focus: hsl(0, 0%, 100%);
+  --button: hsl(216, 5%, 18%);
+  --button-hover: hsl(0, 0%, 100%);
+  --button-hover-text: hsl(215, 28%, 17%);
+  --elevation-close: 0 1px 3px 0 hsl(0, 0%, 0%, 0.1), 0 1px 2px 0 hsl(0, 0%, 0%, 0.06);
+  --elevation-far: 0 10px 15px -3px hsl(0, 0%, 0%, 0.3), 0 4px 6px -2px hsl(0, 0%, 0%, 0.2);
+  --input-focus: inset 0 0 0 100vmax hsl(0, 0%, 0%, 0.2);
+  --backdrop: hsl(0, 0%, 0%, 0.8);
   --interactive-muted: var(--text-muted);
   --interactive-normal: var(--text-normal);
-  --interactive-active: #fff;
-  --background-modifier-hover: rgb(255 255 255 / .02);
+  --interactive-active: hsl(0, 0%, 100%);
+  --background-modifier-hover: hsl(0, 0%, 0%, 0.2);
   --channels-default: var(--text-normal);
 }
 
@@ -407,6 +407,18 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .scroller-1JbKMe::-webkit-scrollbar {
   display: none;
+}
+#app-mount .searchBar-6Kv8R2 {
+  box-shadow: none;
+  background: transparent;
+  height: auto;
+  padding: var(--spacing-xl) var(--spacing-xl) 0 var(--spacing-xl);
+}
+#app-mount .searchBarComponent-32dTOx {
+  background: var(--bg-lvl-0);
+  padding: var(--spacing) var(--spacing-xl);
+  height: auto;
+  color: var(--text-normal);
 }
 #app-mount .channel-2QD9_O {
   max-width: unset;
@@ -1181,7 +1193,7 @@ html.theme-dark .force-theme.theme-light {
 
 .button-1YfofB.buttonColor-7qQbGO {
   background: var(--bg-lvl-3);
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
 }
 .button-1YfofB.buttonColor-7qQbGO:hover {
   background: var(--bg-lvl-2);
@@ -1189,7 +1201,7 @@ html.theme-dark .force-theme.theme-light {
 
 .bd-button {
   background: rgb(var(--accent));
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
 }
 .bd-button:hover {
   background: rgb(var(--accent));
@@ -1202,7 +1214,7 @@ html.theme-dark .force-theme.theme-light {
 
 #app-mount .textarea-2r0oV8 {
   border: none;
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
   transition: box-shadow 0.15s ease;
 }
 #app-mount .textarea-2r0oV8::-moz-placeholder {
@@ -1223,7 +1235,7 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .input-cIJ7To {
   border: none;
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
   background: var(--bg-lvl-2);
 }
 #app-mount .input-cIJ7To:focus {
@@ -1240,7 +1252,7 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .container-1nZlH6 {
   border-color: var(--bg-lvl-1);
   background: var(--bg-lvl-1);
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
 }
 #app-mount .container-1nZlH6:hover {
   border-color: rgb(var(--accent));
@@ -1292,8 +1304,15 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .lookFilled-22uAsw.select-2fjwPw {
   background: var(--bg-lvl-1);
   border: none;
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
   cursor: pointer;
+}
+#app-mount .css-gvi9bl-control:hover,
+#app-mount .css-17e1tep-control:hover,
+#app-mount .css-x3hllb-control:hover,
+#app-mount .css-z86t1q-control:hover,
+#app-mount .lookFilled-22uAsw.select-2fjwPw:hover {
+  background: var(--bg-lvl-2);
 }
 #app-mount .css-4h5swf-singleValue,
 #app-mount .css-1yg49vj-singleValue {
@@ -1301,9 +1320,9 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .css-6fzn47-control,
 #app-mount .css-1ou54ee-control {
-  background: var(--bg-lvl-2);
+  background: var(--bg-lvl-3);
   border: none;
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
   cursor: pointer;
 }
 #app-mount .css-3vaxre-menu,
@@ -1312,7 +1331,7 @@ html.theme-dark .force-theme.theme-light {
   background: var(--bg-lvl-2);
   border: none;
   box-shadow: var(--elevation-far);
-  border-radius: var(--rounded-large);
+  border-radius: var(--rounded-small);
   margin-top: var(--spacing);
   overflow: hidden;
 }
@@ -1414,12 +1433,28 @@ html.theme-dark .force-theme.theme-light {
   box-shadow: var(--elevation-far);
   border-radius: var(--rounded-large);
 }
+#app-mount .backdrop-1wrmKB {
+  background: var(--backdrop) !important;
+}
+#app-mount .header-1TKi98 {
+  overflow: visible;
+  padding: var(--spacing-xl) var(--spacing-xl) 0 var(--spacing-xl);
+}
+#app-mount .header-1TKi98 .base-1x0h_U {
+  color: var(--text-focus);
+}
+#app-mount .header-1TKi98 .colorHeaderSecondary-3Sp3Ft {
+  color: var(--text-normal);
+}
 #app-mount .footer-2gL1pp {
   background: var(--bg-lvl-1);
   box-shadow: none;
 }
-#app-mount .backdrop-1wrmKB {
-  background: var(--backdrop) !important;
+#app-mount .footer-2gL1pp .button-38aScr.lookBlank-3eh9lL {
+  color: var(--text-normal);
+}
+#app-mount .backButton-iA7KIs {
+  color: var(--text-normal);
 }
 
 #app-mount .root-3QyAh1 {
@@ -1525,6 +1560,7 @@ html.theme-dark .force-theme.theme-light {
   display: block;
   box-sizing: border-box;
   border: none;
+  margin-top: var(--spacing-xl);
 }
 #app-mount .root-3QyAh1 .tabBar-3nvOPa {
   height: auto;
@@ -1633,6 +1669,30 @@ html.theme-dark .force-theme.theme-light {
   border-radius: var(--rounded-large);
 }
 
+#app-mount .templatesList-2E6rTe {
+  padding: 0 var(--spacing) 0 var(--spacing-xl);
+}
+#app-mount .templatesList-2E6rTe .colorHeaderSecondary-3Sp3Ft {
+  color: var(--text-normal);
+}
+#app-mount .templatesList-2E6rTe + div > h3 {
+  display: none;
+}
+#app-mount .optionsList-3UMAjx .colorHeaderSecondary-3Sp3Ft {
+  color: var(--text-normal);
+}
+#app-mount .container-UC8Ug1 {
+  background: var(--bg-lvl-1);
+  transition: background 0.15s ease;
+  margin-bottom: var(--spacing-xl);
+}
+#app-mount .container-UC8Ug1 .colorStandard-2KCXvj {
+  color: var(--text-focus);
+}
+#app-mount .container-UC8Ug1:hover {
+  background: var(--bg-lvl-2);
+}
+
 #app-mount .menu-3sdvDG {
   background: var(--bg-lvl-3);
   border-radius: var(--rounded-small);
@@ -1654,6 +1714,14 @@ html.theme-dark .force-theme.theme-light {
   background: rgba(var(--accent), 1);
   color: #fff;
 }
+#app-mount .menu-3sdvDG .item-1tOPte.focused-3afm-j .radioSelection-1HmrQS,
+#app-mount .menu-3sdvDG .item-1tOPte.focused-3afm-j .checkbox-3s5GYZ, #app-mount .menu-3sdvDG .item-1tOPte:active .radioSelection-1HmrQS,
+#app-mount .menu-3sdvDG .item-1tOPte:active .checkbox-3s5GYZ {
+  color: #fff;
+}
+#app-mount .menu-3sdvDG .item-1tOPte.focused-3afm-j .check-1JyqgN, #app-mount .menu-3sdvDG .item-1tOPte:active .check-1JyqgN {
+  color: rgb(var(--accent));
+}
 #app-mount .menu-3sdvDG .item-1tOPte.focused-3afm-j.colorPremium-p4p7qO, #app-mount .menu-3sdvDG .item-1tOPte:active.colorPremium-p4p7qO {
   background: rgb(var(--discord-nitro));
   color: #222;
@@ -1663,6 +1731,10 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .menu-3sdvDG .item-1tOPte.focused-3afm-j.colorDanger-2qLCe1, #app-mount .menu-3sdvDG .item-1tOPte:active.colorDanger-2qLCe1 {
   background: rgb(var(--discord-red));
+}
+#app-mount .menu-3sdvDG .radioSelection-1HmrQS,
+#app-mount .menu-3sdvDG .checkbox-3s5GYZ {
+  color: rgb(var(--accent));
 }
 
 #app-mount .userPopout-xaxa6l {
@@ -1722,7 +1794,7 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .userPopout-xaxa6l .activity-3v9l4T {
   padding: 0 var(--spacing-xl);
 }
-#app-mount .userPopout-xaxa6l .rolesList-TyGJiZ {
+#app-mount .userPopout-xaxa6l .rolesList-1geHY1 {
   position: unset;
   margin: 0 0 var(--spacing-lg);
 }
@@ -2171,7 +2243,7 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .contentColumn-2hrIYH,
 #app-mount .customColumn-Rb6toI {
   max-width: 990px;
-  padding: 32px;
+  padding: var(--spacing-3xl);
 }
 #app-mount .formNotice-2_hHWR {
   background: var(--bg-lvl-1);
@@ -2200,7 +2272,7 @@ html.theme-dark .force-theme.theme-light {
   box-shadow: var(--elevation-far);
 }
 #app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
-  content: "iPadOS " var(--ipados-version);
+  content: "iPadOS " var(--ipados-base-version);
   display: block;
 }
 #app-mount .sidebar-CFHs9e {
@@ -2435,6 +2507,9 @@ html.theme-dark .force-theme.theme-light {
           mask-image: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01" /></svg>');
 }
 
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .accountProfileCard-1XCH88 {
+  background: var(--bg-lvl-1);
+}
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .background-1QDuV2 {
   background: var(--bg-lvl-2);
   border-radius: var(--rounded-large);
@@ -2467,6 +2542,9 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .connectionHeader-2MDqhu {
   background: var(--bg-lvl-2);
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .integration-3kMeY4 {
+  background: var(--bg-lvl-0);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .preview-2nSL_2 {
   display: none;
@@ -2548,7 +2626,7 @@ html.theme-dark .force-theme.theme-light {
   position: sticky;
   top: 0px;
   background: var(--bg-lvl-0);
-  padding: var(--spacing-xl) 0;
+  padding: var(--spacing-3xl) 0;
   z-index: 1;
 }
 #app-mount .bd-view-button {

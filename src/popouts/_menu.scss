@@ -20,6 +20,13 @@
 		&.focused-3afm-j, &:active {
 			background: rgba(var(--accent), 1);
 			color: #fff;
+			.radioSelection-1HmrQS,
+			.checkbox-3s5GYZ {
+				color: #fff;
+			}
+			.check-1JyqgN {
+				color: rgb(var(--accent));
+			}
 			&.colorPremium-p4p7qO {
 				background: rgb(var(--discord-nitro));
 				color: #222;
@@ -31,5 +38,11 @@
 				background: rgb(var(--discord-red));
 			}
 		}
+	}
+
+	// Checkbox/radio
+	.radioSelection-1HmrQS,
+	.checkbox-3s5GYZ {
+		color: rgb(var(--accent));
 	}
 }
