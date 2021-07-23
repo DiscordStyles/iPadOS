@@ -1,6 +1,6 @@
 :root {
   --ipados-file-version: "0.1";
-  --ipados-base-version: "0.1.3 [BETA]";
+  --ipados-base-version: "0.1.4 [BETA]";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -19,8 +19,6 @@
   --header-background-repeat: repeat;
   --header-background-position: initial;
   --header-background-size: auto;
-  --elevation-close: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
   --font-size-xsm: 11px;
   --font-size-sm: 14px;
   --font-size: 16px;
@@ -73,8 +71,14 @@ html.theme-light .force-theme.theme-light {
   --button: var(--bg-lvl-3);
   --button-hover: #2b2d30;
   --button-hover-text: #fff;
+  --elevation-close: 0 1px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.06);
+  --elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.25), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  --input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
+  --backdrop: rgb(0 0 0 / .6);
   --interactive-muted: var(--text-muted);
-  --interactive-active: var(--text-focus);
+  --interactive-normal: var(--text-normal);
+  --interactive-active: #fff;
+  --background-modifier-hover: rgb(255 255 255 / .02);
   --channels-default: var(--text-normal);
 }
 
@@ -95,8 +99,10 @@ html.theme-dark .force-theme.theme-light {
   --button: #2b2d30;
   --button-hover: #fff;
   --button-hover-text: #1f2937;
+  --elevation-close: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
   --input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
-  --backdrop: rgb(0 0 0 / .6);
+  --backdrop: rgb(0 0 0 / .8);
   --interactive-muted: var(--text-muted);
   --interactive-normal: var(--text-normal);
   --interactive-active: #fff;
@@ -248,32 +254,6 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .toolbar-1t6TWx .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
   display: none;
-}
-#app-mount .search-36MZv- {
-  order: 0;
-  margin: 0;
-}
-#app-mount .search-36MZv- .icon-38sknP {
-  height: 30px;
-}
-#app-mount .searchBar-3dMhjb {
-  background: var(--bg-lvl-0);
-  height: 32px;
-  width: 250px;
-}
-#app-mount .DraftEditor-editorContainer {
-  height: 30px;
-}
-#app-mount .public-DraftEditor-content {
-  display: flex;
-  align-items: center;
-  padding-left: var(--spacing-md);
-}
-#app-mount .public-DraftEditorPlaceholder-root {
-  height: 30px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--spacing-md);
 }
 #app-mount .title-3qD0b- .divider-3FBTu8 {
   display: none;
@@ -985,7 +965,7 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .scrollableContainer-2NUZem {
   background: var(--bg-lvl-1);
   border-radius: var(--rounded-large);
-  box-shadow: var(--elevation-far);
+  box-shadow: var(--elevation-close);
 }
 #app-mount .textArea-12jD-V {
   background: var(--bg-lvl-2);
@@ -1050,7 +1030,8 @@ html.theme-dark .force-theme.theme-light {
   background: var(--bg-lvl-2);
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--rounded-large);
-  box-shadow: var(--elevation-close);
+  box-shadow: var(--elevation-far);
+  overflow: visible;
 }
 
 #app-mount .wrapper-3vR61M {
@@ -1433,6 +1414,9 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .footer-2gL1pp {
   background: var(--bg-lvl-1);
   box-shadow: none;
+}
+#app-mount .backdrop-1wrmKB {
+  background: var(--backdrop) !important;
 }
 
 #app-mount .root-3QyAh1 {
@@ -1902,7 +1886,7 @@ html.theme-dark .force-theme.theme-light {
   z-index: -1;
 }
 #app-mount .container-3iAQ-0 {
-  padding-right: 0;
+  padding: 0;
 }
 #app-mount .channelHeader-3Gd2xq {
   background: var(--bg-lvl-0);
@@ -1951,6 +1935,107 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .searchResult-9tQ1uo .cozy-3raOZG:hover {
   background: var(--bg-lvl-3) !important;
+}
+
+#app-mount .search-36MZv- {
+  order: 0;
+  margin: 0;
+}
+#app-mount .search-36MZv- .icon-38sknP {
+  height: 100%;
+}
+#app-mount .search-2oPWTC.focused-31_ccS {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--rounded-large);
+}
+#app-mount .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
+  background: var(--bg-lvl-2);
+  height: 64px;
+  width: 500px;
+  padding: 0 var(--spacing-xl);
+  box-sizing: border-box;
+  box-shadow: var(--elevation-far);
+  border-radius: var(--rounded-large);
+}
+#app-mount .search-2oPWTC.focused-31_ccS .public-DraftEditor-content {
+  cursor: text;
+  font-size: var(--font-size-lg);
+}
+#app-mount .search-2oPWTC.focused-31_ccS .public-DraftEditorPlaceholder-root {
+  font-size: var(--font-size-lg);
+}
+#app-mount .search-2oPWTC.focused-31_ccS .icon-38sknP {
+  width: 42px;
+}
+#app-mount .search-2oPWTC.focused-31_ccS .iconContainer-O4O2CN,
+#app-mount .search-2oPWTC.focused-31_ccS .icon-3cZ1F_ {
+  width: 24px;
+  height: 24px;
+}
+#app-mount .search-2oPWTC.focused-31_ccS:before {
+  content: "";
+  position: fixed;
+  top: -100vh;
+  right: -100vw;
+  bottom: -100vh;
+  left: -100vw;
+  background: var(--backdrop);
+  z-index: -1;
+}
+#app-mount .searchBar-3dMhjb {
+  background: var(--bg-lvl-0);
+  padding: 0;
+  height: 32px;
+  width: 250px;
+}
+#app-mount .DraftEditor-root {
+  padding: 0;
+}
+#app-mount .DraftEditor-editorContainer {
+  height: 100%;
+}
+#app-mount .public-DraftEditor-content {
+  display: flex;
+  align-items: center;
+  padding-left: var(--spacing-md);
+  cursor: pointer;
+}
+#app-mount .public-DraftEditorPlaceholder-root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--spacing-md);
+}
+#app-mount #search-results.container-3ayLPN {
+  position: fixed;
+  left: 50%;
+  top: calc(20% + 46px + var(--spacing-xl));
+  transform: translateX(-50%);
+  width: 500px !important;
+  box-sizing: border-box;
+  border-radius: var(--rounded-large);
+  background: var(--bg-lvl-1);
+  box-shadow: var(--elevation-far);
+}
+#app-mount .resultsGroup-r_nuzN {
+  padding: var(--spacing-xl) 0;
+  margin: 0;
+}
+#app-mount .resultsGroup-r_nuzN:before {
+  content: none;
+}
+#app-mount .option-96V44q.selected-rZcOL- {
+  background: var(--bg-lvl-3);
+}
+#app-mount .option-96V44q:after {
+  background: linear-gradient(90deg, transparent, var(--bg-lvl-1) 80%);
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {

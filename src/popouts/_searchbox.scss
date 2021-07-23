@@ -1,0 +1,106 @@
+#app-mount {
+	// Search box
+	.search-36MZv- {
+		order: 0;
+		margin: 0;
+		.icon-38sknP {
+			height: 100%;
+		}
+	}
+	.search-2oPWTC.focused-31_ccS {
+		position: fixed;
+		left: 50%;
+		top: 20%;
+		transform: translateX(-50%);
+		z-index: 1000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: var(--rounded-large);
+		.searchBar-3dMhjb {
+			background: var(--bg-lvl-2);
+			height: 64px;
+			width: 500px;
+			padding: 0 var(--spacing-xl);
+			box-sizing: border-box;
+			box-shadow: var(--elevation-far);
+			border-radius: var(--rounded-large);
+		}
+		.public-DraftEditor-content {
+			cursor: text;
+			font-size: var(--font-size-lg);
+		}
+		.public-DraftEditorPlaceholder-root {
+			font-size: var(--font-size-lg);
+		}
+		.icon-38sknP {
+			width: 42px;
+		}
+		.iconContainer-O4O2CN,
+		.icon-3cZ1F_ {
+			width: 24px;
+			height: 24px;
+		}
+		&:before {
+			content: "";
+			position: fixed;
+			top: -100vh;
+			right: -100vw;
+			bottom: -100vh;
+			left: -100vw;
+			background: var(--backdrop);
+			z-index: -1;
+		}
+	}
+	.searchBar-3dMhjb {
+		background: var(--bg-lvl-0);
+		padding: 0;
+		height: 32px;
+		width: 250px;
+	}
+	.DraftEditor-root {
+		padding: 0;
+	}
+	.DraftEditor-editorContainer {
+		height: 100%;
+	}
+	.public-DraftEditor-content {
+		display: flex;
+		align-items: center;
+		padding-left: var(--spacing-md);
+		cursor: pointer;
+	}
+	.public-DraftEditorPlaceholder-root {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		padding-left: var(--spacing-md);
+	}
+
+	#search-results.container-3ayLPN {
+		position: fixed;
+		left: 50%;
+		top: calc(20% + 46px + var(--spacing-xl));
+		transform: translateX(-50%);
+		width: 500px !important;
+		box-sizing: border-box;
+		border-radius: var(--rounded-large);
+		background: var(--bg-lvl-1);
+		box-shadow: var(--elevation-far);
+	}
+	.resultsGroup-r_nuzN {
+		padding: var(--spacing-xl) 0;
+		margin: 0;
+		&:before {
+			content: none;
+		}
+	}
+	.option-96V44q {
+		&.selected-rZcOL- {
+			background: var(--bg-lvl-3);
+		}
+		&:after {
+			background: linear-gradient(90deg, transparent, var(--bg-lvl-1) 80%);
+		}
+	}
+}

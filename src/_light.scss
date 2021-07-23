@@ -20,9 +20,22 @@ html.theme-light .force-theme.theme-light {
 	--button-hover: #2b2d30;
 	--button-hover-text: #fff;
 
+	// Box shadows
+	--elevation-close: 0 1px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.06);
+	--elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.25), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+
+	// Inputs
+	--input-focus: inset 0 0 0 100vmax rgb(255 255 255 / .02);
+
+	// Others
+	--backdrop: rgb(0 0 0 / .6);
+
 	// Discord variables
 	--interactive-muted: var(--text-muted);
-	--interactive-active: var(--text-focus);
+	--interactive-normal: var(--text-normal);
+	--interactive-active: #fff;
+
+	--background-modifier-hover: rgb(255 255 255 / .02);
 
 	--channels-default: var(--text-normal);
 }

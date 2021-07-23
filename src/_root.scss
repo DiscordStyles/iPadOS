@@ -2,7 +2,7 @@
 
 :root {
 	--ipados-file-version: '0.1';
-	--ipados-base-version: '0.1.3 [BETA]';
+	--ipados-base-version: '0.1.4 [BETA]';
 
 	// Roundness
 	--rounded-small: 4px;
@@ -29,10 +29,6 @@
 	--header-background-repeat: repeat;
 	--header-background-position: initial;
 	--header-background-size: auto;
-
-	// Box shadows
-	--elevation-close: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-	--elevation-far: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
 
 	// Font sizes
 	--font-size-xsm: 11px;

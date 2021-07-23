@@ -47,7 +47,7 @@
 	.scrollableContainer-2NUZem {
 		background: var(--bg-lvl-1);
 		border-radius: var(--rounded-large);
-		box-shadow: var(--elevation-far);
+		box-shadow: var(--elevation-close);
 	}
 	.textArea-12jD-V {
 		background: var(--bg-lvl-2);
@@ -117,7 +117,8 @@
 		background: var(--bg-lvl-2);
 		padding: var(--spacing-sm) var(--spacing-md);
 		border-radius: var(--rounded-large);
-		box-shadow: var(--elevation-close)
+		box-shadow: var(--elevation-far);
+		overflow: visible;
 	}
 }
 
