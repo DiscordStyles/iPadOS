@@ -5,10 +5,17 @@ const fs = require('fs');
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 
+console.log('Building iPadOS.css file...');
+
 sass.render({
 	file: 'src/_base.scss',
 	outputStyle: 'expanded'
 }, (err, result) => {
+	if (err) {
+		console.error(err);
+		return false;
+	}
+
 	const newRes = Buffer.from(result.css).toString();
 
 	postcss([autoprefixer])
@@ -18,8 +25,8 @@ sass.render({
 		})
 		.then(postcssRes => {
 			fs.writeFile('dist/iPadOS.css', postcssRes.css, (err) => {
-				if (err) console.log(err);
-				else console.log('Built css file.');
+				if (err) console.error(err);
+				else console.log('Successfully built iPadOS.css file.');
 			})
 		})
 })

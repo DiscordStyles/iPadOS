@@ -13,7 +13,7 @@ html.theme-light .force-theme.theme-light {
 
 	--text-muted: #9ba3af;
 	--text-normal: #374252;
-	--text-focus: #1f2937;
+	--text-focus: #000;
 
 	// Button colours
 	--button: var(--bg-lvl-3);
@@ -33,7 +33,7 @@ html.theme-light .force-theme.theme-light {
 	// Discord variables
 	--interactive-muted: var(--text-muted);
 	--interactive-normal: var(--text-normal);
-	--interactive-active: #fff;
+	--interactive-active: var(--text-focus);
 
 	--background-modifier-hover: rgb(255 255 255 / .02);
 

@@ -39,10 +39,8 @@
 			}
 		}
 
-		.spoilerText-3p6IlD {
-			&.hidden-HHr2R9 {
-				background: var(--bg-lvl-0);
-			}
+		.spoilerText-3p6IlD.hidden-HHr2R9 {
+			background: var(--bg-lvl-0);
 		}
 
 		.timestamp-3ZCmNB.alt-1uNpEt {
@@ -109,7 +107,7 @@
 		& + .backgroundFlash-24qWLN {
 			transition: 150ms ease;
 			background: rgba(var(--accent), 0.2) !important;
-			&[style*="rgba(114, 137, 218, 0)"] {
+			&[style*="rgba(88, 101, 242, 0)"] {
 				background: transparent !important;
 			}
 		}
@@ -186,6 +184,11 @@
 			background: var(--bg-lvl-0);
 			border-radius: var(--rounded-large);
 		}
+	}
+
+	// Server invite
+	.wrapper-35wsBm {
+		background: var(--bg-lvl-1);
 	}
 
 	// Reactions

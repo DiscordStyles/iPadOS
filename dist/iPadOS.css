@@ -1,6 +1,6 @@
 :root {
   --ipados-file-version: "0.1";
-  --ipados-base-version: "0.1.4 [BETA]";
+  --ipados-base-version: "0.1.5 [BETA]";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -67,7 +67,7 @@ html.theme-light .force-theme.theme-light {
   --status-offline: #2F3034;
   --text-muted: #9ba3af;
   --text-normal: #374252;
-  --text-focus: #1f2937;
+  --text-focus: #000;
   --button: var(--bg-lvl-3);
   --button-hover: #2b2d30;
   --button-hover-text: #fff;
@@ -77,7 +77,7 @@ html.theme-light .force-theme.theme-light {
   --backdrop: rgb(0 0 0 / .6);
   --interactive-muted: var(--text-muted);
   --interactive-normal: var(--text-normal);
-  --interactive-active: #fff;
+  --interactive-active: var(--text-focus);
   --background-modifier-hover: rgb(255 255 255 / .02);
   --channels-default: var(--text-normal);
 }
@@ -94,7 +94,7 @@ html.theme-dark .force-theme.theme-light {
   --status-dnd: #E02020;
   --status-offline: #2F3034;
   --text-muted: #888;
-  --text-normal: #ddd;
+  --text-normal: #ccc;
   --text-focus: #fff;
   --button: #2b2d30;
   --button-hover: #fff;
@@ -829,7 +829,7 @@ html.theme-dark .force-theme.theme-light {
   transition: 150ms ease;
   background: rgba(var(--accent), 0.2) !important;
 }
-#app-mount .cozy-3raOZG + .backgroundFlash-24qWLN[style*="rgba(114, 137, 218, 0)"] {
+#app-mount .cozy-3raOZG + .backgroundFlash-24qWLN[style*="rgba(88, 101, 242, 0)"] {
   background: transparent !important;
 }
 #app-mount .cozy-3raOZG.mentioned-xhSam7 {
@@ -895,6 +895,9 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .wrapperAudio-1jDe0Q .audioControls-2HsaU6 {
   background: var(--bg-lvl-0);
   border-radius: var(--rounded-large);
+}
+#app-mount .wrapper-35wsBm {
+  background: var(--bg-lvl-1);
 }
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu {
   background: rgb(var(--accent), 0.2);
@@ -2031,11 +2034,59 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .resultsGroup-r_nuzN:before {
   content: none;
 }
+#app-mount .queryContainer-RKFJW- {
+  background: var(--bg-lvl-2);
+  border: none;
+}
 #app-mount .option-96V44q.selected-rZcOL- {
   background: var(--bg-lvl-3);
 }
 #app-mount .option-96V44q:after {
   background: linear-gradient(90deg, transparent, var(--bg-lvl-1) 80%);
+}
+#app-mount .answer-1n6g43,
+#app-mount .header-2N-gMV,
+#app-mount .plusIcon-v0BTrL {
+  color: var(--text-focus);
+}
+#app-mount .filter-3Y_im-,
+#app-mount .searchClearHistory-2cSSMO,
+#app-mount .searchLearnMore-3SQUAj a {
+  color: var(--text-normal);
+}
+
+#app-mount .autocomplete-1vrmpx {
+  background: var(--bg-lvl-3);
+  border-radius: var(--rounded-large);
+  box-shadow: var(--elevation-close);
+  bottom: calc(100% + var(--spacing-xl));
+}
+#app-mount .autocomplete-1vrmpx .wrapper-uf3cnO {
+  width: 64px;
+}
+#app-mount .autocomplete-1vrmpx .wrapper-2Gsate {
+  background: var(--bg-lvl-2);
+}
+#app-mount .autocomplete-1vrmpx .wrapper-2Gsate .mask-2xtthE,
+#app-mount .autocomplete-1vrmpx .wrapper-2Gsate .wrapper-2siovq {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: var(--rounded-small);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-lvl-1);
+}
+#app-mount .autocomplete-1vrmpx .categoryHeader-O1zU94 {
+  background: var(--bg-lvl-3);
+}
+#app-mount .autocomplete-1vrmpx .selectable-3dP3y- {
+  padding: var(--spacing) var(--spacing-xl) var(--spacing) var(--spacing);
+  border-radius: var(--rounded-small);
+}
+#app-mount .autocomplete-1vrmpx .selectable-3dP3y-.selected-1Tbx07 {
+  background: var(--bg-lvl-2);
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {

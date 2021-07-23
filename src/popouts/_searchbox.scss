@@ -95,6 +95,10 @@
 			content: none;
 		}
 	}
+	.queryContainer-RKFJW- {
+		background: var(--bg-lvl-2);
+		border: none;
+	}
 	.option-96V44q {
 		&.selected-rZcOL- {
 			background: var(--bg-lvl-3);
@@ -102,5 +106,15 @@
 		&:after {
 			background: linear-gradient(90deg, transparent, var(--bg-lvl-1) 80%);
 		}
+	}
+	.answer-1n6g43,
+	.header-2N-gMV,
+	.plusIcon-v0BTrL {
+		color: var(--text-focus);
+	}
+	.filter-3Y_im-,
+	.searchClearHistory-2cSSMO,
+	.searchLearnMore-3SQUAj a {
+		color: var(--text-normal);
 	}
 }
