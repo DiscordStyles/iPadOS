@@ -100,6 +100,7 @@
 		border: none;
 	}
 	.option-96V44q {
+		line-height: 20px;
 		&.selected-rZcOL- {
 			background: var(--bg-lvl-3);
 		}
@@ -114,7 +115,12 @@
 	}
 	.filter-3Y_im-,
 	.searchClearHistory-2cSSMO,
-	.searchLearnMore-3SQUAj a {
+	.searchLearnMore-3SQUAj a,
+	.displayUsername-Qekxml,
+	.searchResultChannelIcon-1DnTme {
 		color: var(--text-normal);
+	}
+	.searchResultChannelCategory-1l0lSn {
+		color: var(--text-muted);
 	}
 }

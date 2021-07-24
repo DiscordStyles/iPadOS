@@ -1,6 +1,6 @@
 :root {
   --ipados-file-version: "0.1";
-  --ipados-base-version: "0.1.7 [BETA]";
+  --ipados-base-version: "0.1.8 [BETA]";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -672,7 +672,7 @@ html.theme-dark .force-theme.theme-light {
   left: calc(var(--chat-avatar-size) + var(--message-padding));
   right: calc(var(--app-spacing) + var(--message-padding));
   top: var(--app-spacing);
-  box-shadow: var(--elevation-close);
+  box-shadow: var(--elevation-far);
   background: rgb(var(--accent));
   opacity: 1;
 }
@@ -927,6 +927,9 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .wrapper-35wsBm {
   background: var(--bg-lvl-1);
+}
+#app-mount .reaction-1hd86g {
+  background: var(--bg-lvl-3);
 }
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu {
   background: rgb(var(--accent), 0.2);
@@ -2163,6 +2166,9 @@ html.theme-dark .force-theme.theme-light {
   background: var(--bg-lvl-2);
   border: none;
 }
+#app-mount .option-96V44q {
+  line-height: 20px;
+}
 #app-mount .option-96V44q.selected-rZcOL- {
   background: var(--bg-lvl-3);
 }
@@ -2176,8 +2182,13 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .filter-3Y_im-,
 #app-mount .searchClearHistory-2cSSMO,
-#app-mount .searchLearnMore-3SQUAj a {
+#app-mount .searchLearnMore-3SQUAj a,
+#app-mount .displayUsername-Qekxml,
+#app-mount .searchResultChannelIcon-1DnTme {
   color: var(--text-normal);
+}
+#app-mount .searchResultChannelCategory-1l0lSn {
+  color: var(--text-muted);
 }
 
 #app-mount .autocomplete-1vrmpx {
@@ -2212,6 +2223,10 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .autocomplete-1vrmpx .selectable-3dP3y-.selected-1Tbx07 {
   background: var(--bg-lvl-2);
+}
+
+#app-mount #guild-header-popout {
+  transform: translate(25px, -50px);
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {

@@ -5,7 +5,7 @@
 		left: calc(var(--chat-avatar-size) + var(--message-padding));
 		right: calc(var(--app-spacing) + var(--message-padding));
 		top: var(--app-spacing);
-		box-shadow: var(--elevation-close);
+		box-shadow: var(--elevation-far);
 		background: rgb(var(--accent));
 		opacity: 1;
 		&:hover {

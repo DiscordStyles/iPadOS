@@ -192,10 +192,13 @@
 	}
 
 	// Reactions
-	.reaction-1hd86g.reactionMe-wv5HKu {
-		background: rgb(var(--accent), 0.2);
-		.reactionCount-2mvXRV {
-			color: rgb(var(--accent), 1);
+	.reaction-1hd86g {
+		background: var(--bg-lvl-3);
+		&.reactionMe-wv5HKu {
+			background: rgb(var(--accent), 0.2);
+			.reactionCount-2mvXRV {
+				color: rgb(var(--accent), 1);
+			}
 		}
 	}
 
