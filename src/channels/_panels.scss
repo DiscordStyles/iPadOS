@@ -3,11 +3,6 @@
 		background: transparent;
 	}
 
-	// Connected panel
-	.container-1giJp5 {
-		border: none;
-	}
-
 	// User panel
 	.container-3baos1 {
 		background: var(--bg-lvl-2);
@@ -35,10 +30,23 @@
 
 	// Connected
 	.container-1giJp5 {
+		border: none;
 		margin-bottom: var(--app-spacing);
 		background: var(--bg-lvl-1);
 		margin-top: calc(var(--app-spacing) / -1 - 4px);
 		border-bottom-right-radius: var(--rounded-large);
+		padding: var(--spacing-xl);
+	}
+	.connection-3KRENF {
+		padding: 0;
+		margin-bottom: var(--spacing-xl);
+	}
+	.actionButtons-14eAc_ {
+		padding: 0;
+	}
+	.rtcConnectionStatus-2-jIsi {
+		padding-bottom: 0;
+		margin-bottom: var(--spacing);
 	}
 	
 	// Live

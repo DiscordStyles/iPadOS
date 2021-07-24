@@ -1,6 +1,6 @@
 :root {
   --ipados-file-version: "0.1";
-  --ipados-base-version: "0.1.6 [BETA]";
+  --ipados-base-version: "0.1.7 [BETA]";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -610,9 +610,6 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .panels-j1Uci_ {
   background: transparent;
 }
-#app-mount .container-1giJp5 {
-  border: none;
-}
 #app-mount .container-3baos1 {
   background: var(--bg-lvl-2);
   border-radius: var(--rounded-large);
@@ -637,10 +634,23 @@ html.theme-dark .force-theme.theme-light {
   font-weight: var(--font-weight-normal);
 }
 #app-mount .container-1giJp5 {
+  border: none;
   margin-bottom: var(--app-spacing);
   background: var(--bg-lvl-1);
   margin-top: calc(var(--app-spacing) / -1 - 4px);
   border-bottom-right-radius: var(--rounded-large);
+  padding: var(--spacing-xl);
+}
+#app-mount .connection-3KRENF {
+  padding: 0;
+  margin-bottom: var(--spacing-xl);
+}
+#app-mount .actionButtons-14eAc_ {
+  padding: 0;
+}
+#app-mount .rtcConnectionStatus-2-jIsi {
+  padding-bottom: 0;
+  margin-bottom: var(--spacing);
 }
 #app-mount .activityPanel-28dQGo {
   margin-top: calc(var(--app-spacing) / -1 - 4px);
@@ -648,6 +658,13 @@ html.theme-dark .force-theme.theme-light {
   background: var(--bg-lvl-1);
   border: none;
   border-bottom-right-radius: var(--rounded-large);
+}
+
+#app-mount .avatar-3tNQiO {
+  border-radius: var(--rounded-small);
+}
+#app-mount .avatar-3tNQiO.avatarSpeaking-2IGMRN {
+  box-shadow: inset 0 0 0 2px hsl(139, calc(var(--saturation-factor, 1)*47.3%), 43.9%), inset 0 0 0 4px var(--bg-lvl-2);
 }
 
 #app-mount .newMessagesBar-265mhP {
@@ -1360,6 +1377,9 @@ html.theme-dark .force-theme.theme-light {
   background: rgb(var(--accent)) !important;
   border-color: rgb(var(--accent)) !important;
 }
+#app-mount .checkboxWrapper-SkhIWG.checked-3_4uQ9 .checkbox-1ix_J3 path {
+  fill: #fff;
+}
 
 #app-mount .members-1998pB {
   margin-top: var(--app-spacing);
@@ -1693,6 +1713,39 @@ html.theme-dark .force-theme.theme-light {
   background: var(--bg-lvl-2);
 }
 
+#app-mount .uploadModal-2ifh8j {
+  background: var(--bg-lvl-0);
+  border: none;
+  box-shadow: var(--elevation-far);
+}
+#app-mount .uploadModal-2ifh8j .inner-3nWsbo {
+  margin: 0;
+}
+#app-mount .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j) {
+  display: none;
+}
+#app-mount .uploadModal-2ifh8j .comment-4IWttf {
+  margin: 0 var(--spacing-3xl);
+}
+#app-mount .uploadModal-2ifh8j .channelTextAreaUpload-3t7EIx {
+  margin: var(--spacing) 0 var(--spacing-3xl);
+}
+#app-mount .uploadModal-2ifh8j .description-2ug5H_ {
+  padding: var(--spacing-3xl) 0 var(--spacing-3xl) var(--spacing-3xl);
+}
+#app-mount .uploadModal-2ifh8j .slateTextArea-1Mkdgw,
+#app-mount .uploadModal-2ifh8j .textArea-12jD-V {
+  min-height: 54px;
+}
+#app-mount .uploadModal-2ifh8j .buttons-3JBrkn {
+  padding: var(--spacing-md) 0 0 var(--spacing-md);
+}
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D {
+  background: var(--bg-lvl-1);
+  box-shadow: none;
+  padding: var(--spacing-xl);
+}
+
 #app-mount .menu-3sdvDG {
   background: var(--bg-lvl-3);
   border-radius: var(--rounded-small);
@@ -1852,7 +1905,7 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .userPopout-xaxa6l .protip-2urNh2 {
   display: none;
 }
-#app-mount .userPopout-xaxa6l .note-1MiCN7 {
+#app-mount .userPopout-xaxa6l .note-1oo11U {
   margin: 0;
 }
 #app-mount .userPopout-xaxa6l .input-cIJ7To {
