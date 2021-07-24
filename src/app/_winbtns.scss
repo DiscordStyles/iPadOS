@@ -3,7 +3,7 @@
 		position: absolute;
 		width: 100vw;
 		z-index: 1;
-		&:after {
+		&::after {
 			content: "";
 			position: absolute;
 			top: calc(var(--win-btns-top) - 4px);

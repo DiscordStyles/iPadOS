@@ -4,7 +4,7 @@
 		width: calc(100vw - var(--sidebar-width) - 72px - var(--app-spacing) * 3);
 	}
 	.tabBody-3YRQ8W {
-		&:before {
+		&::before {
 			content: none;
 		}
 	}

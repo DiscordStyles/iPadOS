@@ -22,7 +22,7 @@
 		.item-PXvHYJ {
 			display: flex;
 			align-items: center;
-			&:before {
+			&::before {
 				content: "";
 				width: 18px;
 				height: 18px;
@@ -45,7 +45,7 @@
 			&.selected-3s45Ha {
 				background: rgb(var(--accent)) !important;
 				color: #fff;
-				&:before {
+				&::before {
 					background: #fff;
 				}
 			}
@@ -69,7 +69,7 @@
 				svg {
 					display: none;
 				}
-				&:before {
+				&::before {
 					background: currentColor;
 					mask-image: url(assets.$icon_discord);
 				}
@@ -82,7 +82,7 @@
 			}
 			&[aria-controls="Nitro Server Boost-tab"] {
 				color: rgb(var(--discord-nitro)) !important;
-				&:before {
+				&::before {
 					background: currentColor;
 					mask-image: url(assets.$icon_nitro-gem);
 				}
@@ -138,7 +138,7 @@
 			}
 			&[aria-controls="Hypesquad Online-tab"] {
 				color: rgb(var(--discord-yellow));
-				&:before {
+				&::before {
 					background: currentColor;
 					mask: url(assets.$icon_hypesquad) center/cover no-repeat;
 				}
@@ -148,7 +148,7 @@
 				}
 			}
 			&[aria-controls="logout-tab"] {
-				&:before {
+				&::before {
 					mask-image: url(assets.$icon_logout);
 					background: rgb(var(--discord-red));
 				}
@@ -199,7 +199,7 @@
 				svg {
 					display: none;
 				}
-			  &:before {
+			  &::before {
 			    mask-image: url(assets.$icon_lightning-bolt);
 			    background: rgb(114, 137, 218);
 			  }
@@ -217,7 +217,7 @@
 			  mask-image: url(assets.$icon_shield-exclamation);
 			}
 			// &[aria-controls="DELETE-tab"] {
-			//   &:before {
+			//   &::before {
 			//     mask-image: url(assets.$icon_trashcan);
 			//     mask-size: 12px;
 			//     background: rgb(var(--discord-red));

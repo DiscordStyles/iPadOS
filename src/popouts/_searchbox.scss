@@ -41,13 +41,13 @@
 			width: 24px;
 			height: 24px;
 		}
-		&:before {
+		&::before {
 			content: "";
 			position: fixed;
-			top: -100vh;
-			right: -100vw;
-			bottom: -100vh;
-			left: -100vw;
+			top: -100vmax;
+			right: -100vmax;
+			bottom: -100vmax;
+			left: -100vmax;
 			background: var(--backdrop);
 			z-index: -1;
 		}
@@ -91,7 +91,7 @@
 	.resultsGroup-r_nuzN {
 		padding: var(--spacing-xl) 0;
 		margin: 0;
-		&:before {
+		&::before {
 			content: none;
 		}
 	}
@@ -104,7 +104,7 @@
 		&.selected-rZcOL- {
 			background: var(--bg-lvl-3);
 		}
-		&:after {
+		&::after {
 			background: linear-gradient(90deg, transparent, var(--bg-lvl-1) 80%);
 		}
 	}

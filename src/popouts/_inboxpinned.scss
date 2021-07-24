@@ -1,4 +1,7 @@
 #app-mount {
+
+	// Global
+	.messagesPopoutWrap-1MQ1bW,
 	.recentMentionsPopout-3rCiI6 {
 		position: fixed;
 		top: 50%;
@@ -13,6 +16,73 @@
 		border-radius: var(--rounded-large);
 		background: var(--bg-lvl-0);
 
+		&::before {
+			content: "";
+			position: absolute;
+			top: -100vmax;
+			right: -100vmax;
+			bottom: -100vmax;
+			left: -100vmax;
+			background: var(--backdrop);
+			pointer-events: none;
+			z-index: -1;
+		}
+
+		.messagesPopout-24nkyi {
+			padding: var(--spacing-xl) !important;
+			background: var(--bg-lvl-0);
+			border-radius: 0 0 var(--rounded-large) var(--rounded-large);
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+	}
+	.jumpButton-3DTcS_ {
+		background: rgb(var(--accent));
+		color: #fff;
+		font-weight: 600;
+		z-index: 1;
+		height: auto;
+		border-radius: var(--rounded-small);
+		padding: var(--spacing) var(--spacing-md);
+		margin: -2px 12px 0 0;
+		transition: box-shadow .15s ease;
+		&:hover {
+			background: rgb(var(--accent));
+			box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .1);
+		}
+		&:focus {
+			background: rgb(var(--accent));
+			box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .2);
+		}
+	}
+
+	// Pinned messages
+	.header-ykumBX {
+		border-radius: var(--rounded-large) var(--rounded-large) 0 0;
+		padding: var(--spacing-3xl);
+		h3 {
+			color: var(--text-focus);
+			font-size: var(--font-size-xl);
+		}
+	}
+	.messagesPopoutWrap-1MQ1bW {
+		.messageGroupWrapper-o-Zw7G {
+			background: transparent;
+			border: none;
+			margin-bottom: var(--spacing-xl);
+		}
+		.cozy-3raOZG {
+			background: var(--bg-lvl-2);
+			border-radius: var(--rounded-large);
+			&:hover {
+				background: var(--bg-lvl-2) !important;
+			}
+		}
+	}
+
+
+	.recentMentionsPopout-3rCiI6 {
 		.scroller-2UmRce,
 		.scroller-tlc3kG {
 			padding: 0 !important;
@@ -31,13 +101,13 @@
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			grid-template-areas: "title title" "actions filter";
-			height: 104px;
-			min-height: 104px;
+			height: auto;
+			min-height: auto;
 			flex-direction: column;
 			align-items: center;
 			width: 100%;
-			padding: var(--spacing-xl);
-			&:before {
+			padding: var(--spacing-3xl);
+			&::before {
 				content: "Inbox";
 				color: var(--text-focus);
 				font-size: var(--font-size-xl);
@@ -61,18 +131,6 @@
 				background: rgb(var(--accent));
 				color: #fff;
 			}
-		}
-
-		&::before {
-			content: "";
-			position: absolute;
-			top: -100%;
-			right: -100%;
-			bottom: -100%;
-			left: -100%;
-			background: var(--backdrop);
-			pointer-events: none;
-			z-index: -1;
 		}
 	}
 	.container-3iAQ-0 {

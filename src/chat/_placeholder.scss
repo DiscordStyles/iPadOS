@@ -10,7 +10,7 @@
 		margin-right: var(--message-padding);
 		overflow: visible;
 		contain: none;
-		&:before {
+		&::before {
 			content: "";
 			position: absolute;
 			top: 0;

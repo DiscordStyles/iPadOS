@@ -14,7 +14,7 @@ $bannerHeight: 200px;
 	height: 495px;
 	max-height: 495px;
 
-	&:before {
+	&::before {
 		content: "";
 		position: absolute;
 		top: calc(-60px - var(--spacing-xl));
@@ -131,7 +131,7 @@ $bannerHeight: 200px;
 		margin: 0;
 		padding: var(--spacing) var(--spacing-lg);
 		border-radius: var(--rounded-small);
-		&:before {
+		&::before {
 			content: "";
 			width: 18px;
 			height: 18px;
@@ -195,7 +195,7 @@ $bannerHeight: 200px;
 		border: none;
 		& + .userInfoSection-q_35fn {
 			padding-bottom: 0;
-			&:before {
+			&::before {
 				content: "Connections";
 				color: var(--text-normal);
 				font-size: var(--font-size-xsm);
