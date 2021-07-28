@@ -122,6 +122,10 @@
 				padding: var(--spacing);
 			}
 		}
+
+		&.hasThread-2k82W0::after {
+			content: none;
+		}
 	}
 
 	// Button
@@ -183,6 +187,26 @@
 		.audioControls-2HsaU6 {
 			background: var(--bg-lvl-0);
 			border-radius: var(--rounded-large);
+		}
+	}
+	.container-1ov-mD {
+		padding: 0;
+	}
+	.container-3hZ-gs {
+		background: transparent;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column-reverse;
+		.topLine-1hV9bl {
+			padding: var(--spacing);
+			background: var(--bg-lvl-1);
+			border-radius: 0 0 var(--rounded-large) var(--rounded-large);
+		}
+		.bottomLine-2qB7L6 {
+			padding: var(--spacing);
+			background: var(--bg-lvl-0);
+			border-radius: var(--rounded-large) var(--rounded-large) 0 0;
 		}
 	}
 

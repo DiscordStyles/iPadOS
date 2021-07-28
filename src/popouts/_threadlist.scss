@@ -1,0 +1,54 @@
+#app-mount {
+	.container-7uh5fX {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		height: 60vh;
+		min-width: 60vh;
+		max-width: 60vh;
+		width: 70vw;
+		transform: translate(-50%, -50%);
+		overflow: visible;
+		box-shadow: var(--elevation-far);
+		border-radius: var(--rounded-large);
+		background: var(--bg-lvl-0);
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -100vmax;
+			right: -100vmax;
+			bottom: -100vmax;
+			left: -100vmax;
+			background: var(--backdrop);
+			pointer-events: none;
+			z-index: -1;
+		}
+	}
+
+	.header-1VS4tm {
+		height: auto;
+		border-radius: var(--rounded-large) var(--rounded-large) 0 0;
+		padding: var(--spacing-3xl);
+		.createButton-nlV8qH {
+			height: auto;
+		}
+	}
+
+	.activeThreadsList-3f7l7U {
+		background: var(--bg-lvl-0);
+	}
+	.list-wek7hJ {
+		height: 100%;
+		background: var(--bg-lvl-0);
+		border-radius: 0 0 var(--rounded-large) var(--rounded-large);
+	}
+	.container-2I9Hud {
+		border-radius: var(--rounded-large);
+		background: var(--bg-lvl-1);
+		border: none;
+		&:hover {
+			background: var(--bg-lvl-2);
+		}
+	}
+}
