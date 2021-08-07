@@ -2883,3 +2883,6 @@ html.theme-dark .force-theme.theme-light {
   white-space: pre-wrap;
   content: "File version: " var(--ipados-file-version) "\a Base version: " var(--ipados-base-version);
 }
+/* Custom status spacing fix */
+.customStatusText-2opeSw {margin-top: 15px;}
+.customStatus-oN4ZZY {margin-top: -18px}
