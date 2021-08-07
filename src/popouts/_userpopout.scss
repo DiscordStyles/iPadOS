@@ -144,8 +144,15 @@
 			box-shadow: var(--input-focus);
 		}
 	}
+	
+	//Big popout custom status spacing fix
 
-
+	.customStatusText-2opeSw {
+		margin-top: 15px;
+	}
+	.customStatus-oN4ZZY {
+		margin-top: -18px;
+	}
 
 
 	// Usrbg support
