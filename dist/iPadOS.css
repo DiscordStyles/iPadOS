@@ -2886,3 +2886,5 @@ html.theme-dark .force-theme.theme-light {
 /* Custom status spacing fix */
 .customStatusText-2opeSw {margin-top: 15px;}
 .customStatus-oN4ZZY {margin-top: -18px}
+/* Fix "My Account" profile picture border */
+.avatar-1uQSZT {border:none;}
