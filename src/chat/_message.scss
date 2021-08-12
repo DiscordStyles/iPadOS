@@ -15,7 +15,7 @@
 			left: calc((var(--chat-avatar-size) / -1) - var(--message-padding));
 			top: 0;
 			margin-top: 0;
-			border-radius: var(--rounded-large);
+			border-radius: var(--avatar-radius);
 			width: var(--chat-avatar-size);
 			height: var(--chat-avatar-size);
 		}
@@ -25,7 +25,7 @@
 				overflow: visible;
 			}
 			img {
-				border-radius: var(--rounded-large);
+				border-radius: var(--avatar-radius);
 			}
 		}
 

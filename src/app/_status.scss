@@ -8,8 +8,8 @@
 	}
 	rect {
 		mask: none;
-		ry: var(--rounded-small);
-		rx: var(--rounded-small);
+		ry: var(--avatar-radius);
+		rx: var(--avatar-radius);
 		&[fill="#43b581"],
 		&[fill="rgba(67, 181, 129, 1)"],
 		&[fill="#ffffff"],
@@ -39,7 +39,7 @@
 		}
 	}
 	img {
-		border-radius: var(--rounded-large);
+		border-radius: var(--avatar-radius);
 	}
 
 	// Small avatars (members, dms)

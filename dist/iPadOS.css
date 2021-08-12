@@ -4,6 +4,8 @@
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
+  --avatar-radius: var(--rounded-large);
+  --server-radius: var(--rounded-large);
   --spacing-xs: 4px;
   --spacing-sm: 6px;
   --spacing: 8px;
@@ -151,8 +153,8 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .wrapper-3t9DeA rect {
   -webkit-mask: none;
           mask: none;
-  ry: var(--rounded-small);
-  rx: var(--rounded-small);
+  ry: var(--avatar-radius);
+  rx: var(--avatar-radius);
 }
 #app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[fill="#ffffff"], #app-mount .wrapper-3t9DeA rect[mask*=online] {
   fill: rgb(var(--discord-green));
@@ -170,7 +172,7 @@ html.theme-dark .force-theme.theme-light {
   fill: rgb(var(--discord-grey));
 }
 #app-mount .wrapper-3t9DeA img {
-  border-radius: var(--rounded-large);
+  border-radius: var(--avatar-radius);
 }
 #app-mount .wrapper-3t9DeA[style*="32"] rect {
   stroke: var(--bg-lvl-1);
@@ -786,7 +788,7 @@ html.theme-dark .force-theme.theme-light {
   left: calc((var(--chat-avatar-size) / -1) - var(--message-padding));
   top: 0;
   margin-top: 0;
-  border-radius: var(--rounded-large);
+  border-radius: var(--avatar-radius);
   width: var(--chat-avatar-size);
   height: var(--chat-avatar-size);
 }
@@ -796,7 +798,7 @@ html.theme-dark .force-theme.theme-light {
   overflow: visible;
 }
 #app-mount .cozy-3raOZG .wrapper-3t9DeA img {
-  border-radius: var(--rounded-large);
+  border-radius: var(--avatar-radius);
 }
 #app-mount .cozy-3raOZG .header-23xsNx {
   margin-bottom: calc(var(--message-padding) / 2);
@@ -1198,7 +1200,7 @@ html.theme-dark .force-theme.theme-light {
 }
 
 #app-mount .wrapper-25eVIn {
-  border-radius: var(--rounded-large);
+  border-radius: var(--server-radius);
   overflow: hidden;
 }
 #app-mount .wrapper-25eVIn foreignObject {
@@ -1847,7 +1849,7 @@ html.theme-dark .force-theme.theme-light {
   left: calc(var(--spacing-xl) - 6px);
 }
 #app-mount .userPopout-xaxa6l .wrapper-3t9DeA {
-  border-radius: var(--rounded-large);
+  border-radius: var(--avatar-radius);
   border-color: var(--bg-lvl-1);
   background: var(--bg-lvl-1);
 }
@@ -1855,7 +1857,7 @@ html.theme-dark .force-theme.theme-light {
   stroke: var(--bg-lvl-1) !important;
 }
 #app-mount .userPopout-xaxa6l .avatarHint-2A3RNb {
-  border-radius: var(--rounded-large);
+  border-radius: var(--avatar-radius);
   width: var(--avatar-size-xl);
   height: var(--avatar-size-xl);
 }

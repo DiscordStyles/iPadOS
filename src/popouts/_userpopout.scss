@@ -14,7 +14,7 @@
 		left: calc(var(--spacing-xl) - 6px);
 	}
 	.wrapper-3t9DeA {
-		border-radius: var(--rounded-large);
+		border-radius: var(--avatar-radius);
 		border-color: var(--bg-lvl-1);
 		background: var(--bg-lvl-1);
 		rect {
@@ -22,7 +22,7 @@
 		}
 	}
 	.avatarHint-2A3RNb {
-		border-radius: var(--rounded-large);
+		border-radius: var(--avatar-radius);
 		width: var(--avatar-size-xl);
 		height: var(--avatar-size-xl);
 		foreignObject {

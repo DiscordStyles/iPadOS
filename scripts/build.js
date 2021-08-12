@@ -2,6 +2,7 @@
 
 const sass = require('sass');
 const fs = require('fs');
+const path = require('path');
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 
@@ -24,7 +25,7 @@ sass.render({
 			to: undefined
 		})
 		.then(postcssRes => {
-			fs.writeFile('dist/iPadOS.css', postcssRes.css, (err) => {
+			fs.writeFile(path.join('dist', 'iPadOS.css'), postcssRes.css, (err) => {
 				if (err) console.error(err);
 				else console.log(`Successfully built iPadOS.css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 			})
