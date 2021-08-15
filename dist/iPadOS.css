@@ -1,6 +1,6 @@
 :root {
   --ipados-file-version: "1.0.0";
-  --ipados-base-version: "1.0.0";
+  --ipados-base-version: "1.0.1";
   --rounded-small: 4px;
   --rounded-large: 8px;
   --button-radius: 12px;
@@ -294,46 +294,6 @@ html.theme-dark .force-theme.theme-light {
 #app-mount .colorMuted-HdFt4q {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
-}
-
-#app-mount .typeWindows-1za-n7 {
-  position: absolute;
-  width: 100vw;
-  z-index: 1;
-}
-#app-mount .typeWindows-1za-n7::after {
-  content: "";
-  position: absolute;
-  top: calc(var(--win-btns-top) - 4px);
-  right: var(--app-spacing);
-  width: 156px;
-  height: 52px;
-  border-radius: var(--rounded-large);
-  z-index: 0;
-  box-shadow: var(--elevation-close);
-}
-#app-mount .wordmarkWindows-1v0lYD {
-  display: none;
-}
-#app-mount .winButton-iRh8-Z {
-  top: calc(var(--win-btns-top) - 4px);
-  right: var(--app-spacing);
-  background: var(--bg-lvl-1);
-  height: 52px;
-  width: 52px;
-  z-index: 1;
-}
-#app-mount .winButton-iRh8-Z:hover {
-  background: var(--bg-lvl-2);
-}
-#app-mount .winButtonMinMax-PBQ2gm:nth-child(4) {
-  border-radius: var(--rounded-large) 0 0 var(--rounded-large);
-}
-#app-mount .winButtonClose-1HsbF- {
-  border-radius: 0 var(--rounded-large) var(--rounded-large) 0;
-}
-#app-mount .winButtonClose-1HsbF-:hover {
-  background: rgb(var(--discord-red));
 }
 
 #app-mount .containerDefault--pIXnN {
@@ -2884,4 +2844,60 @@ html.theme-dark .force-theme.theme-light {
   margin-top: var(--spacing-xs);
   white-space: pre-wrap;
   content: "File version: " var(--ipados-file-version) "\a Base version: " var(--ipados-base-version);
+}
+
+html.platform-osx .macButtons-2MuSAC {
+  margin: var(--app-spacing) 0 0 var(--app-spacing);
+}
+html.platform-osx #app-mount .guilds-1SWlCJ .tree-2wKJdG {
+  margin-top: 32px;
+}
+html.platform-osx #app-mount .guilds-1SWlCJ .scroller-1Bvpku {
+  padding-top: 0;
+}
+html.platform-osx #app-mount .guilds-1SWlCJ .unreadMentionsIndicatorTop-2-tcdU {
+  top: 32px;
+}
+html.platform-osx #app-mount #search-results.container-3ayLPN {
+  top: calc(20% + 64px + var(--spacing-xl));
+}
+
+#app-mount .typeWindows-1za-n7 {
+  position: absolute;
+  width: 100vw;
+  z-index: 1;
+}
+#app-mount .typeWindows-1za-n7::after {
+  content: "";
+  position: absolute;
+  top: calc(var(--win-btns-top) - 4px);
+  right: var(--app-spacing);
+  width: 156px;
+  height: 52px;
+  border-radius: var(--rounded-large);
+  z-index: 0;
+  box-shadow: var(--elevation-close);
+}
+#app-mount .wordmarkWindows-1v0lYD {
+  display: none;
+}
+#app-mount .winButton-iRh8-Z {
+  top: calc(var(--win-btns-top) - 4px);
+  right: var(--app-spacing);
+  background: var(--bg-lvl-1);
+  height: 52px;
+  width: 52px;
+  z-index: 1;
+}
+#app-mount .winButton-iRh8-Z:hover {
+  background: var(--bg-lvl-2);
+}
+#app-mount .winButtonMinMax-PBQ2gm:nth-child(4) {
+  border-radius: var(--rounded-large) 0 0 var(--rounded-large);
+}
+#app-mount .winButtonClose-1HsbF- {
+  border-radius: 0 var(--rounded-large) var(--rounded-large) 0;
+}
+#app-mount .winButtonClose-1HsbF-:hover {
+  background: rgb(var(--discord-red));
 }

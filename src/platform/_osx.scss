@@ -1,0 +1,24 @@
+html.platform-osx {
+	// Buttons
+	.macButtons-2MuSAC {
+		margin: var(--app-spacing) 0 0 var(--app-spacing);
+	}
+
+	// Server list
+	#app-mount .guilds-1SWlCJ {
+		.tree-2wKJdG {
+			margin-top: 32px;
+		}
+		.scroller-1Bvpku {
+			padding-top: 0;
+		}
+		.unreadMentionsIndicatorTop-2-tcdU {
+			top: 32px;
+		}
+	}
+
+	// Search results
+	#app-mount #search-results.container-3ayLPN {
+		top: calc(20% + 64px + var(--spacing-xl));
+	}
+}
