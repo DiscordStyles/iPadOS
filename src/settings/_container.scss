@@ -20,6 +20,8 @@
 		flex: 1 1 auto;
 		width: var(--settings-width);
 		position: unset;
+		min-height: 800px;
+		max-height: 800px;
 	}
 
 	.toolsContainer-1edPuj {
@@ -63,5 +65,38 @@
 		&::-webkit-scrollbar {
 			display: none;
 		}
+	}
+	.contentColumnMinimal-2iX-kP {
+		padding: 0;
+	}
+	.customScroller-26gWhv {
+		overflow: hidden !important;
+		& > div {
+			min-width: unset;
+			max-width: unset;
+			margin: 0;
+			& > div[style="height: 60px;"] {
+				display: none;
+			}
+		}
+	}
+	.sidebar-dLM-kh,
+	.scroller-Utb7tO {
+		max-height: 800px;
+	}
+	.contentContainer-14yMzC {
+		position: relative;
+		left: 0;
+		width: 100%;
+		.scroller-3ZpLaI {
+			max-height: 800px;
+		}
+	}
+	.sidebar-3Wgas9 {
+		position: relative;
+	}
+	.page-3njELR {
+		min-width: unset;
+		max-width: unset;
 	}
 }

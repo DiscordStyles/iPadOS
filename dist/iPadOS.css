@@ -2354,6 +2354,8 @@ html.theme-dark .force-theme.theme-light {
   flex: 1 1 auto;
   width: var(--settings-width);
   position: unset;
+  min-height: 800px;
+  max-height: 800px;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .toolsContainer-1edPuj {
   padding-top: 0;
@@ -2393,6 +2395,39 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .customContainer-1RHXqt::-webkit-scrollbar {
   display: none;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentColumnMinimal-2iX-kP {
+  padding: 0;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .customScroller-26gWhv {
+  overflow: hidden !important;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .customScroller-26gWhv > div {
+  min-width: unset;
+  max-width: unset;
+  margin: 0;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .customScroller-26gWhv > div > div[style="height: 60px;"] {
+  display: none;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebar-dLM-kh,
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .scroller-Utb7tO {
+  max-height: 800px;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentContainer-14yMzC {
+  position: relative;
+  left: 0;
+  width: 100%;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentContainer-14yMzC .scroller-3ZpLaI {
+  max-height: 800px;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebar-3Wgas9 {
+  position: relative;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .page-3njELR {
+  min-width: unset;
+  max-width: unset;
 }
 
 #app-mount .contentRegion-3nDuYy {
@@ -2719,6 +2754,18 @@ html.theme-dark .force-theme.theme-light {
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .preview-2nSL_2 {
   display: none;
+}
+
+#app-mount .layer-3QrUeG[aria-label*=GUILD_SETTINGS] .contentWidth-xLB44s {
+  width: 100%;
+  min-width: unset;
+  max-width: unset;
+  padding: 0 calc(var(--spacing-xl) * 2);
+}
+#app-mount .layer-3QrUeG[aria-label*=GUILD_SETTINGS] .header-2mZ9Ov,
+#app-mount .layer-3QrUeG[aria-label*=GUILD_SETTINGS] .titleContainer-2CXtJo {
+  background: var(--bg-lvl-0);
+  padding-top: var(--spacing-xl);
 }
 
 #app-mount .container-1D34oG {
