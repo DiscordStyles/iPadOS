@@ -99,8 +99,9 @@
 			background: transparent !important;
 		}
 
-		& + .cozy-3raOZG:not(.groupStart-23k01U) {
+		&.cozy-3raOZG:not(.groupStart-23k01U) {
 			padding-top: calc(var(--message-padding) / 4) !important;
+			margin-top: calc(var(--message-padding) / -1) !important;
 		}
 
 		// Jump to message flash
